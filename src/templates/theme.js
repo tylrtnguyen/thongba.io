@@ -1,11 +1,11 @@
-
 const theme = {
     colors: {
         black: '#212121',
         charcoal: '#2F4550',
         cadet: '#586F7C',
         powderBlue: '#B8DBD9',
-        ghostWhite: '#F4F4F9'
+        ghostWhite: '#F4F4F9',
+        white: '#F7F7F7'
     },
 
     fonts: {

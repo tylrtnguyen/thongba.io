@@ -22,7 +22,7 @@ export const StyledListItem = styled.li`
     curosr: pointer;
     font-size: ${fontSizes.md};
     &:hover {
-        transform: scale(1.2);
+        transform: scale(1.1);
     }
 `
 

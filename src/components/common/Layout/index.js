@@ -4,7 +4,7 @@ import { useStaticQuery, graphql } from 'gatsby';
 import Head from '../Head';
 import PropTypes from 'prop-types';
 import { GlobalStyle, theme } from '@templates';
-import { Social } from '@components/common';
+import { SocialMedia } from '@components/landing';
 import { NavBar } from '@components/header';
 
 // Styling
@@ -33,7 +33,7 @@ const Layout = ({children}) => {
             <Head metadata={data.site.siteMetadata} />
             <StyledContent>
                 <NavBar />
-                <Social />
+                <SocialMedia />
                 {children}
             </StyledContent>
         </div>

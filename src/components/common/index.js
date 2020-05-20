@@ -5,6 +5,5 @@ export { default as Card } from './Card/index';
 export { default as CardPost } from './CardPost/index';
 export { default as Head } from './Head/index';
 export { default as Project } from './Project/index';
-export { default as Social } from './Social/index';
 export { default as SideBar } from './SideBar/index';
 export { default as Tag } from './Tag/index';

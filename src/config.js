@@ -34,13 +34,13 @@ module.exports = {
           url: '/about',
         },
         {
-          name: 'Blog',
-          url: '/blog'
-        },
-        {
-          name: 'Work',
+          name: 'Project',
           url: '/projects',
         },
+        {
+          name: 'Blog',
+          url: '/blog'
+        },   
         {
           name: 'Contact',
           url: '/contact',

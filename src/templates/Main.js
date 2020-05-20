@@ -8,7 +8,7 @@ const Main = styled.main`
   width: 100%;
   max-width: 1600px;
   min-height: 100vh;
-  padding-top: 200px;
+  padding-top: 50px;
   padding-bottom: 200px;
   ${media.desktop`
     padding-top: 200px;
