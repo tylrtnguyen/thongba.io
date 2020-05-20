@@ -1,15 +1,15 @@
-import React from "react";
+import React from 'react'
 import { Layout, Title } from '@components/common';
 import Main from '@templates/Main';
 
-const AboutPage = () => {
+const ProjectPage = () => {
     return (
         <Layout>
             <Main>
-                <Title text="About me"/>
+                <Title text="Project page"/>
             </Main>
         </Layout>
     )
 }
 
-export default AboutPage
+export default ProjectPage

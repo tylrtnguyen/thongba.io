@@ -1,10 +1,14 @@
 import React from 'react'
+import { Layout, Title } from '@components/common';
+import Main from '@templates/Main';
 
 const BlogPage = () => {
     return (
-        <div>
-            <h1>This is Blog Page</h1>
-        </div>
+        <Layout>
+            <Main>
+                <Title text="Recent articles"/>
+            </Main>
+        </Layout>
     )
 }
 

@@ -1,8 +1,14 @@
 import React from 'react'
+import { Layout, Title } from '@components/common';
+import Main from '@templates/Main';
 
 const ContactPage = () => {
     return (
-        <h1>This is contact page</h1>
+        <Layout>
+            <Main>
+            <Title text="Contact me" />
+            </Main>
+        </Layout>
     )
 }
 
