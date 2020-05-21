@@ -23,8 +23,8 @@ const GlobalStyle = createGlobalStyle`
     overflow-x: hidden;
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
-    background-color: ${colors.black};
-    color: ${colors.ghostWhite};
+    background-color: ${colors.danteWhite};
+    color: ${colors.black};
     line-height: 1.3;
     font-family: ${fonts.Monsterrat};
     font-size: ${fontSizes.xl};
@@ -105,7 +105,7 @@ const GlobalStyle = createGlobalStyle`
     cursor: pointer;
     &:hover,
     &:focus {
-      color: ${colors.powderBlue};
+      ${'' /* color: ${colors.cadet}; */}
     }
   }
   button {
@@ -114,7 +114,7 @@ const GlobalStyle = createGlobalStyle`
     border-radius: 0;
     &:focus,
     &:active {
-      outline-color: ${colors.lightblue};
+      ${'' /* outline-color: ${colors.lightblue}; */}
     }
   }
   input, textarea {

@@ -3,8 +3,12 @@ const theme = {
         black: '#212121',
         charcoal: '#2F4550',
         cadet: '#586F7C',
+        danteBrown: '#363636',
+        danteBlue: '#1976D2',
         powderBlue: '#B8DBD9',
+        lightGreen: '#B8DBBF',
         ghostWhite: '#F4F4F9',
+        danteWhite: '#ECECEC',
         white: '#F7F7F7'
     },
 

@@ -16,7 +16,7 @@ export const StyledContainer = styled(Section)`
 `;
 
 export const StyledGreeting = styled.h1`
-    color: ${colors.powderBlue};
+    color: ${colors.danteBrown};
     margin: 0 0 20px 3px;
     font-size: ${fontSizes.md};
     font-family: ${fonts.Pacifico};
@@ -28,6 +28,7 @@ export const StyledGreeting = styled.h1`
 export const StyledName = styled.h2`
     font-size: 70px;
     line-height: 1.1;
+    color: ${colors.danteBrown};
     margin: 0;
     ${media.desktop`font-size: 60px;`}
     ${media.tablet`font-size: 50px;`}
@@ -38,7 +39,7 @@ export const StyledName = styled.h2`
 export const StyledRole = styled.h3`
     font-size: 70px;
     line-height: 1.1;
-    color: ${colors.white};
+    color: ${colors.danteBlue};
     ${media.desktop`font-size: 60px;`};
     ${media.tablet`font-size: 40px;`};
     ${media.phablet`font-size: 50px;`};
@@ -50,17 +51,18 @@ export const StyledDescription = styled.div`
     width: 70%;
     max-width: 500px;
     p {
-        font-size: ${fontSizes.xl};
+        font-size: ${fontSizes.lg};
     }
     a {
         ${mixins.inlineLink};
     }
+    ${media.phone`p {font-size: ${fontSizes.md}}`};
 `
 
 export const StyledButtonLink = styled.a`
-    color: ${colors.powderBlue};
+    color: ${colors.danteBrown};
     background-color: transparent;
-    border: 1px solid ${colors.powderBlue};
+    border: 1px solid ${colors.danteBrown};
     border-radius: ${theme.borderRadius};
     padding: 1.25rem 1.75rem;
     margin-right: 1.75rem;
@@ -73,7 +75,6 @@ export const StyledButtonLink = styled.a`
     &:focus,
     &:active {
       background-color: ${colors.powderBlue};
-      color: ${colors.charcoal}
     }
     &:after {
       display: none !important;

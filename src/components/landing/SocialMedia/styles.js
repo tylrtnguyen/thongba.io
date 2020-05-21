@@ -16,7 +16,7 @@ export const StyledList = styled.ul`
     width: 1px;
     height: 90px;
     margin: 0 auto;
-    background-color: ${colors.ghostWhite};
+    background-color: ${colors.black};
   }
   li:last-of-type {
     margin-bottom: 30px;
@@ -24,7 +24,7 @@ export const StyledList = styled.ul`
 `;
 
 export const StyledLink = styled.a`
-    padding: 12px;
+  padding: 12px;
   &:hover,
   &:focus {
     transform: translateY(-3px);
