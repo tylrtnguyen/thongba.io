@@ -30,6 +30,10 @@ module.exports = {
 
     navLinks: [
         {
+          name: 'Home',
+          url: '/'
+        },
+        {
           name: 'About',
           url: '/about',
         },
@@ -47,13 +51,14 @@ module.exports = {
         },
     ],
 
-    navHeight: 100,
+    navHeight: 80,
 
     colors: {
       black: '#212121',
       charcoal: '#2F4550',
       cadet: '#586F7C',
       danteBrown: '#363636',
+      danteBlue: '#1976D2',
       powderBlue: '#B8DBD9',
       lightGreen: '#B8DBBF',
       ghostWhite: '#F4F4F9',
