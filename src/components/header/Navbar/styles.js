@@ -1,6 +1,7 @@
-import styled from 'styled-components'
-import { theme, mixins, media } from '@templates'
-const { colors, navHeight } = theme;
+import styled from 'styled-components';
+import { theme, mixins, media } from '@templates';
+import Img from 'gatsby-image';
+const { colors, navHeight, navScrollHeight } = theme;
 
 export const StyledContainer = styled.header`
     ${mixins.flexBetween};
@@ -10,10 +11,13 @@ export const StyledContainer = styled.header`
     background-color: ${colors.danteWhite};
     z-index: 11;
     width: 100%;
-    height: ${navHeight};
+    height: ${props => (props.scrollDirection === 'none' ? navHeight : navScrollHeight)};
+    box-shadow: ${props => props.scrollDirection === 'up' ? `0 10px 30px -10px ${colors.danteBrown}` : 'none'};
+    transform: translateY(${props => (props.scrollDirection === 'down' ? `-${navScrollHeight}` : '0px')})
     ${media.desktop`padding: 0 40px;`};
     ${media.tablet`padding:0 25px;`};
 `;
+
 export const StyledNav = styled.nav`
     ${mixins.flexBetween};
     position: relative;
@@ -24,14 +28,13 @@ export const StyledNav = styled.nav`
     z-index: 12;
 `;
 
-export const StyledBrand = styled.h1` 
-    font-family: 'Pacifico';
-    font-style: normal;
-    font-weight: normal;
-    font-size: 44px;
-    line-height: 84px;
-    padding: 20px;
-    color: ${colors.black};
-    ${media.tablet`padding: 10px;`}
-    ${media.phone`font-size:30px`}
-`
+export const StyledLogo = styled.div` 
+    ${mixins.flexCenter};
+    a {
+    display: block;
+    width: 64px;
+    height: 64px;
+  }
+`;
+
+
