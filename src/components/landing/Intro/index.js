@@ -36,7 +36,7 @@ const Intro = () => {
     return (
         <StyledContainer>
             <StyledGreeting>{frontmatter.greeting}</StyledGreeting>
-            <StyledName>{frontmatter.name}</StyledName>
+            <StyledName>{frontmatter.name}.</StyledName>
             <StyledRole>{frontmatter.role}</StyledRole>
             <StyledDescription dangerouslySetInnerHTML={{__html: html}} />
             <StyledButtonContainer>

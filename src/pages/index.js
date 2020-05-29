@@ -8,7 +8,7 @@ import Main from '@templates/Main';
 const IndexPage = () => {
     return (
         <Layout>
-            <Main>
+            <Main className="fillHeight">
                 <Intro />
             </Main> 
         </Layout>   

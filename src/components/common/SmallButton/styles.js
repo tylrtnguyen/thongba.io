@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { theme } from '@templates';
+import { theme, media } from '@templates';
 const { colors, fontSizes, fonts } = theme;
 
 export const StyledButton = styled.button`

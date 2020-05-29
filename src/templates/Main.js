@@ -22,6 +22,7 @@ const Main = styled.main`
     padding-top: 125px;
     padding-bottom: 125px;
   `};
+  
   &.fillHeight {
     padding-top: 0;
     padding-bottom: 0;

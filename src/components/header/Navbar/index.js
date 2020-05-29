@@ -10,6 +10,8 @@ import { throttle } from '@utils'
 import NavLinks from '../NavbarLinks/index';
 import { Link } from 'gatsby';
 
+const DELTA = 5;
+
 const NavBar = () => {
     const [menuOpen, setMenuOpen] = useState(false);
     const [scrollDirection, setScrollDirection] = useState('none');
@@ -35,7 +37,12 @@ const NavBar = () => {
     const toggleMenu = () => setMenuOpen(!menuOpen);
 
     const handleScroll = () => {
+        const fromTop = window.scrollY;
 
+        // Make sure they 
+        if(Math.abs(lastScrollTop - fromTop) <= DELTA || menuOpen) {
+            return;
+        }
     }
 
     const handleResize = () => {

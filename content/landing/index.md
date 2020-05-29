@@ -1,7 +1,7 @@
 ---
 greeting: 'Hi, my name is'
 name: 'Thong Ba Nguyen'
-role: 'A Full Stack Developer'
+role: 'I build and deploy amazing websites.'
 buttonResume: 'View Resume'
 buttonContact: 'Get In Touch'
 ---

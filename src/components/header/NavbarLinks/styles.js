@@ -17,9 +17,9 @@ export const StyledList = styled.ul`
 `
 
 export const StyledListItem = styled.li`
-    margin: 0 18px;
+    margin: 0 15px;
     position: relative;
-    curosr: pointer;
+    cursor: pointer;
     font-size: ${fontSizes.md};
     &:hover {
         transform: scale(1.1);

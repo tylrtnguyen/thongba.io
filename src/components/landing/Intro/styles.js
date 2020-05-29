@@ -30,20 +30,20 @@ export const StyledName = styled.h2`
     line-height: 1.1;
     color: ${colors.danteBrown};
     margin: 0;
-    ${media.desktop`font-size: 60px;`}
-    ${media.tablet`font-size: 50px;`}
-    ${media.phablet`font-size: 40px;`}
-    ${media.phone`font-size: 30px;`}
+    ${media.desktop`font-size: 60px;`};
+    ${media.tablet`font-size: 50px;`};
+    ${media.phablet`font-size: 40px;`};
+    ${media.phone`font-size: 30px;`};
 `;
 
 export const StyledRole = styled.h3`
-    font-size: 70px;
+    font-size: 60px;
     line-height: 1.1;
     color: ${colors.danteBlue};
-    ${media.desktop`font-size: 60px;`};
-    ${media.tablet`font-size: 40px;`};
-    ${media.phablet`font-size: 50px;`};
-    ${media.phone`font-size: 30px;`};
+    ${media.desktop`font-size: 50px;`};
+    ${media.tablet`font-size: 50px;`};
+    ${media.phablet`font-size: 30px;`};
+    ${media.phone`font-size: 25px;`};
 `;
 
 export const StyledDescription = styled.div`
@@ -80,6 +80,7 @@ export const StyledButtonLink = styled.a`
       display: none !important;
     }
     margin-top: 50px;
+    ${media.phone`margin-top: 15px; padding: 0.9rem 1.75rem;`}
 `
 
 export const StyledButtonContainer = styled.div`
