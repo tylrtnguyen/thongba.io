@@ -1,10 +1,9 @@
 import React from 'react';
 import styled from 'styled-components';
-import { useStaticQuery, graphql } from 'gatsby';
-import SEO from '../SEO';
 import PropTypes from 'prop-types';
 import { GlobalStyle, theme } from '@templates';
 import { NavBar } from '@components/header';
+import Footer from '../../footer/index'
 
 // Styling
 const StyledContent = styled.div`
@@ -19,7 +18,8 @@ const Layout = ({children}) => {
             <GlobalStyle />
             <StyledContent>
                 <NavBar />
-                {children}
+                    {children}
+                <Footer />
             </StyledContent>
         </div>
         

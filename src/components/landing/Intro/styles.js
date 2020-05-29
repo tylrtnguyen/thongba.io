@@ -84,7 +84,7 @@ export const StyledButtonLink = styled.a`
 `
 
 export const StyledSpan = styled.span`
-    
+
 `
 
 export const StyledButtonContainer = styled.div`

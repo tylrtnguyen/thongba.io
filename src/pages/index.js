@@ -9,7 +9,7 @@ import Main from '@templates/Main';
 const IndexPage = () => {
     return (
         <Layout>
-            <SEO />
+            <SEO location="/" />
             <Main className="fillHeight">
                 <SocialMedia />
                 <Intro />

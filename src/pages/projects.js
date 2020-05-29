@@ -6,7 +6,7 @@ const ProjectPage = () => {
     return (
         <Layout>
             <Main> 
-                <SEO title="Project" />
+                <SEO title="Project" location="/projects" />
                 <Title text="Project page"/>
             </Main>
         </Layout>

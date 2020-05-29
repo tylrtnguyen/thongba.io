@@ -69,7 +69,7 @@ const SEO = (props) => {
                         '@type': 'ListItem',
                         position: 1,
                         item: {
-                            '@id': url,
+                            '@id': siteUrl,
                             name: title,
                             image: image
                         }
@@ -113,7 +113,7 @@ const SEO = (props) => {
             <meta name="keywords" content={siteKeywords} />
             <meta name="author" content={author} />
             <meta name="image" content={ogImage} />
-            <script type="application/ld+json">{JSON.stringify(schemaOrgJSONLD)}</script>
+            <script type="application/ld+json">{JSON.stringify(schemaOrgJSONLB)}</script>
 
             <meta property="og:url" content={`${siteUrl}/${location}/?ref=thongba.io`} />
             <meta property="og:title" content={title} />
@@ -133,5 +133,5 @@ const SEO = (props) => {
 export default SEO
 
 SEO.propTypes = {
-    metadata: PropTypes.object.isRequired,
+    props: PropTypes.object,
 };

@@ -6,7 +6,7 @@ const AboutPage = () => {
     return (
         <Layout>
             <Main>
-                <SEO title="About" />
+                <SEO title="About" location="/about" />
                 <Title text="About me"/>
             </Main>
         </Layout>
