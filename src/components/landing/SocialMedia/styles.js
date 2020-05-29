@@ -14,9 +14,8 @@ export const StyledList = styled.ul`
     content: '';
     display: block;
     width: 1px;
-    height: 90px;
+    height: 330px;
     margin: 0 auto;
-    background-color: ${colors.black};
   }
   li:last-of-type {
     margin-bottom: 30px;
@@ -30,8 +29,8 @@ export const StyledLink = styled.a`
     transform: translateY(-3px);
   }
   svg {
-    width: 22px;
-    height: 22px;
+    width: 25px;
+    height: 25px;
   }
 `
 

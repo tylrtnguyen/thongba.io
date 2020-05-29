@@ -83,6 +83,10 @@ export const StyledButtonLink = styled.a`
     ${media.phone`margin-top: 15px; padding: 0.9rem 1.75rem;`}
 `
 
+export const StyledSpan = styled.span`
+    
+`
+
 export const StyledButtonContainer = styled.div`
     display: flex;
     align-items: center;

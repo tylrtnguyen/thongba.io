@@ -7,6 +7,7 @@ module.exports = {
     googleAnalyticsID: 'UA-166829591-1',
     name: 'Thong Ba Nguyen',
     location: 'Toronto, ON',
+    logo: '/logo-light.png',
     email: 'hello@thongba.io',
     github: 'https://github.com/tylrtnguyen',
     socialMedia: [

@@ -1,11 +1,12 @@
 import React from 'react'
-import { Layout, Title } from '@components/common';
+import { Layout, Title, SEO } from '@components/common';
 import Main from '@templates/Main';
 
 const ProjectPage = () => {
     return (
         <Layout>
-            <Main>
+            <Main> 
+                <SEO title="Project" />
                 <Title text="Project page"/>
             </Main>
         </Layout>

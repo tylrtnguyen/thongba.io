@@ -5,7 +5,8 @@ module.exports = {
     title: config.siteTitle,
     siteUrl: config.siteUrl,
     author: config.name,
-    description: config.siteDescription
+    description: config.siteDescription,
+    logo: config.logo
   },
   plugins: [
     `gatsby-plugin-styled-components`,

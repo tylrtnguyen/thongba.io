@@ -92,7 +92,6 @@ const GlobalStyle = createGlobalStyle`
   svg {
     width: 100%;
     height: 100%;
-    fill: currentColor;
     vertical-align: middle;
   }
   a {
@@ -104,8 +103,9 @@ const GlobalStyle = createGlobalStyle`
     transition: ${theme.transition};
     cursor: pointer;
     &:hover,
-    &:focus {
-      ${'' /* color: ${colors.cadet}; */}
+    &:focus,
+    &:active {
+      color: ${colors.danteBlue};
     }
   }
   button {
@@ -114,7 +114,7 @@ const GlobalStyle = createGlobalStyle`
     border-radius: 0;
     &:focus,
     &:active {
-      ${'' /* outline-color: ${colors.lightblue}; */}
+      outline-color: ${colors.lightblue};
     }
   }
   input, textarea {
