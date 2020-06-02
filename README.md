@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://www.linkedin.com/in/tylrtnguyen/">
-    <img alt="Gatsby" src="./src/assets/images/thong-logo.png" width="100" />
+    <img alt="Gatsby" src="./static/logo-light.png" />
   </a>
 </p>
 <h1 align="center">
