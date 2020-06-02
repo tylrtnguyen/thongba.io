@@ -26,7 +26,7 @@ const GlobalStyle = createGlobalStyle`
     background-color: ${colors.danteWhite};
     color: ${colors.black};
     line-height: 1.3;
-    font-family: ${fonts.Monsterrat};
+    font-family: 'Open Sans';
     font-size: ${fontSizes.xl};
     ${media.phablet`font-size: ${fontSizes.lg};`}
     &.hidden {
@@ -59,7 +59,7 @@ const GlobalStyle = createGlobalStyle`
   h5,
   h6 {
     font-weight: 600;
-    color: ${colors.ghostWhite};
+    color: ${colors.danteBrown};
     margin: 0 0 10px 0;
   }
   h1 {

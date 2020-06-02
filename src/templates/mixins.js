@@ -1,7 +1,7 @@
 import { css } from 'styled-components';
 import media from './media';
 import theme from './theme'
-const { colors, fontSizes, fonts } = theme
+const { colors } = theme
 
 const mixins = {
     flexCenter: css`
@@ -26,7 +26,7 @@ const mixins = {
     &:hover,
     &:active,
     &:focus {
-      color: ${colors.powderBlue};
+      color: ${colors.danteBlue};
       outline: 0;
     }
   `,

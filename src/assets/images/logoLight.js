@@ -1,8 +1,8 @@
 import React from 'react';
 
 const LogoLight = () => (
-    <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="100px" height="100px" viewBox="0 0 100 100" enableBackground="new 0 0 100 100" space="preserve"> 
-    <image id="image0" width="100" height="100" x="0" y="0" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAYAAABw4pVUAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+    <svg version="1.1" id="logo-light-wrapper" xmlns="http://www.w3.org/2000/svg" xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="100px" height="100px" viewBox="0 0 100 100" enableBackground="new 0 0 100 100" space="preserve"> 
+    <image id="logo-light" width="100" height="100" x="0" y="0" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAYAAABw4pVUAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
     AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAABmJLR0QA/wD/AP+gvaeTAAAA
     CXBIWXMAAA7EAAAOxAGVKw4bAAAPBUlEQVR42u2deZQUxR3HPz27yyKHLIeKgAmYgAdGBmE5FlwG
     zYEYPEg0xgTfGq8kL/GpMSbREI15mkOj8Ug0JCqiCUYxap4aj+Ae3Lsoh0E0BEER5RIXF+TY3an8

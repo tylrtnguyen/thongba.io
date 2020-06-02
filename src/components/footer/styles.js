@@ -35,12 +35,8 @@ export const StyledIcon = styled.a`
 `
 
 
-
 export const StyledLogo = styled.div`
     margin-bottom: 15px;
-    img {
-        width: 50px;
-    }
 `
 
 export const StyledCopyright = styled.p`

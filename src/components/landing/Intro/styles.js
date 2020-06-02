@@ -26,7 +26,7 @@ export const StyledGreeting = styled.h1`
 `;
 
 export const StyledName = styled.h2`
-    font-size: 70px;
+    font-size: 68px;
     line-height: 1.1;
     color: ${colors.danteBrown};
     margin: 0;
@@ -37,7 +37,7 @@ export const StyledName = styled.h2`
 `;
 
 export const StyledRole = styled.h3`
-    font-size: 60px;
+    font-size: 56px;
     line-height: 1.1;
     color: ${colors.danteBlue};
     ${media.desktop`font-size: 50px;`};

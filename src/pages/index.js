@@ -8,13 +8,16 @@ import Main from '@templates/Main';
 
 const IndexPage = () => {
     return (
-        <Layout>
+        <div>
             <SEO location="/" />
+            <Layout>
             <Main className="fillHeight">
                 <SocialMedia />
                 <Intro />
             </Main>
-        </Layout>   
+            </Layout> 
+        </div>
+          
     )
 }
 

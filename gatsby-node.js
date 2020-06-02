@@ -14,6 +14,7 @@ exports.onCreateWebpackConfig = ({actions, loaders}) => {
                 '@icons': path.resolve(__dirname, 'src/assets/icons'),
                 '@config': path.resolve(__dirname, 'src/config'),
                 '@templates': path.resolve(__dirname, 'src/templates'),
+                '@common': path.resolve(__dirname, 'src/common'),
                 '@utils': path.resolve(__dirname, 'src/utils')
             }
         }

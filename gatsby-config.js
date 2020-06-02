@@ -67,7 +67,7 @@ module.exports = {
       resolve: `gatsby-plugin-web-font-loader`,
       options: {
         google: {
-          families: ['Pacifico', 'Montserrat']
+          families: ['Pacifico', 'Lato']
         }
       }
     }

@@ -6,15 +6,17 @@ export const StyledList = styled.ul`
     display: flex;
     flex-direction: column;
     align-items: center;
+    position: relative;
     padding: 0;
     margin: 0;
     list-style: none;
+    justtify-content: center;
 
     &:after {
     content: '';
     display: block;
     width: 1px;
-    height: 330px;
+    height: 300px;
     margin: 0 auto;
   }
   li:last-of-type {
