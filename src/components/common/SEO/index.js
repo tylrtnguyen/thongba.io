@@ -115,11 +115,12 @@ const SEO = (props) => {
             <meta name="image" content={ogImage} />
             <script type="application/ld+json">{JSON.stringify(schemaOrgJSONLB)}</script>
 
-            <meta property="og:url" content={`${siteUrl}/${location}/?ref=thongba.io`} />
+            <meta property="og:url" content={siteUrl} />
             <meta property="og:title" content={title} />
             <meta property="og:type" content="website" />
             <meta property="og:description" content={metaDescription} />
             <meta property="og:image" conten={ogImage} />
+            <meta property="og:type" content="website" />
 
             <meta property="twitter:card" content="summary"/>
             <meta property="twitter:creator" content={author} />

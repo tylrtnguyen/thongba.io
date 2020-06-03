@@ -8,7 +8,7 @@ export const StyledContainer = styled.header`
     top: 0;
     padding: 0 50px;
     background-color: ${colors.danteWhite};
-    transition: ${transition}
+    transition: ${transition};
     z-index: 11;
     filter: none !important;
     pointer-events: auto !important;
@@ -56,20 +56,13 @@ const baExpanded = `
 `
 
 export const Overlay = styled.div`
-  ${media.tablet`
-    position: fixed;
-    left: 900%;
-    top: 0;
-    width: 900%;
-    height: 100%;
-    transition: 0;
-    &.open {
-      left: 0;
-      transition: background 0.4s;
-      background: rgba(0, 0, 0, 0.3);
-      z-index: 20;
-    }
-  `};
+  position: fixed;
+  background: rgba(0, 0, 0, 0.7);
+  width: 100%;
+  height: 100%;
+  display: none;
+  transition: 0.4s;
+  ${media.tablet`display: block; z-index:8;`}
 `
 
 export const NavbarToggler = styled.button`

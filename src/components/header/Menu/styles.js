@@ -11,6 +11,9 @@ export const StyledContainer = styled.div`
     width: 100%;
     height: 100vh;
     z-index: 10;
+    outline: 0;
+    transform: translateX(${props => (props.menuOpen ? 0 : 100)}vw);
+    visibility: ${props => (props.menuOpen ? 'visible' : 'hidden')};
     transition: ${transition};
     display: none;
     ${media.tablet`display: block;`};
@@ -31,6 +34,9 @@ export const Sidebar = styled.aside`
     ${media.thone`padding: 25px;`};
     ${media.phablet`width: 75vw;`};
     ${media.tiny`padding: 10px;`};
+    &.open {
+        transform: translateX(0);
+    }
 `;
 
 export const Nav = styled.nav`

@@ -1,17 +1,18 @@
-import React, { useState, useEffect } from "react"
-import { Link } from "gatsby"
+import React, { useState, useEffect } from "react";
+import { Link } from "gatsby";
+import Helmet from 'react-helmet';
 import {
   StyledContainer,
   StyledNav,
   StyledLogo,
-  Overlay,
   NavbarToggler,
-} from "./styles"
-import LogoLight from "@images/logoLight"
-import { throttle } from "@utils"
-import { navHeight } from "@config"
-import NavLinks from "../NavbarLinks"
-import Menu from "../Menu"
+  Overlay
+} from "./styles";
+import LogoLight from "@images/logoLight";
+import { throttle } from "@utils";
+import { navHeight } from "@config";
+import NavLinks from "../NavbarLinks";
+import Menu from "../Menu";
 
 const DELTA = 5
 
@@ -86,16 +87,16 @@ const NavBar = () => {
           </Link>
         </StyledLogo>
         <NavLinks />
-      </StyledNav>
-      <NavbarToggler
+        <NavbarToggler
         onClick={toggleMenu}
         id="narbarToggler"
         aria-label="Navbar Toggle"
-        className={`${menuOpen ? "open" : ""}`}
+        className={menuOpen ? "open" : ""}
       >
         <span className="burger-menu"></span>
       </NavbarToggler>
-      <Menu menuOpen={menuOpen} toggleMenu={toggleMenu} />
+      </StyledNav>
+      <Menu menuOpen={menuOpen} toggleMenu={toggleMenu} />    
     </StyledContainer>
   )
 }

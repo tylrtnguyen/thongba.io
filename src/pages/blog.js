@@ -6,7 +6,6 @@ const BlogPage = () => {
     return (
         <Layout>
             <Main>
-                <SEO title="Blog" location="/blog" />
                 <Title text="Recent articles"/>
             </Main>
         </Layout>
