@@ -1,6 +1,6 @@
 module.exports = {
-    siteTitle: 'Thong Ba Nguyen | Full Stack Developer',
-    siteDescription: 'Thong Ba Nguyen is a Full Stack Developer based in Toronto, ON who specializes in building exceptional website from front to back',
+    siteTitle: 'Thong Ba Nguyen | Software Developer',
+    siteDescription: 'Thong Ba Nguyen is a Software Developer based in Toronto, ON who specializes in building exceptional website from front to back',
     siteUrl: 'http://thongba.io',
     siteKeywords: 'Thong Ba Nguyen, Thong Ba, Thong Nguyen, tylrtnguyen, Tyler Thong Nguyen, software engineer, full stack developer, web developer, javascript, toronto',
     siteLanguage: 'en_US',

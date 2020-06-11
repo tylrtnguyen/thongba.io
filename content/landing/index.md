@@ -1,9 +1,9 @@
 ---
 greeting: 'Hi, my name is'
-name: 'Thong Ba Nguyen'
-role: 'I build and deploy amazing websites.'
+name: 'Thong Ba Nguyen.'
+role: 'I develop amazing applications.'
 buttonResume: 'View Resume'
-buttonContact: 'Get In Touch'
+buttonContact: 'See Work'
 ---
 
-I am a Full Stack Developer based in Toronto, ON who specializes in building exceptional websites from front to back. Also, I am passionate about Development Environment Setup and Cloud Development.
+I am a software developer based in Toronto, ON who specializes in building exceptional websites from front to back. Also, I am passionate about development vnvironment setup and cloud development.

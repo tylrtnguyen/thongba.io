@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react";
 import { Link } from "gatsby";
-import Helmet from 'react-helmet';
 import {
   StyledContainer,
   StyledNav,
@@ -24,17 +23,17 @@ const NavBar = () => {
   useEffect(() => {
     // Use throttling to limit the number of times that function can be called.
     // and thus improve the page performance
-    window.addEventListener("scroll", () => throttle(handleScroll()))
-    window.addEventListener("resize", () => throttle(handleResize()))
-    window.addEventListener("keydown", e => throttle(handleKeydown(e)))
+    window.addEventListener("scroll", () => throttle(handleScroll()));
+    window.addEventListener("resize", () => throttle(handleResize()));
+    window.addEventListener("keydown", e => throttle(handleKeydown(e)));
 
     // Clean up
     return () => {
-      window.removeEventListener("scroll", () => handleScroll())
-      window.removeEventListener("resize", () => handleResize())
-      window.removeEventListener("keydown", e => handleKeydown(e))
+      window.removeEventListener("scroll", () => handleScroll());
+      window.removeEventListener("resize", () => handleResize());
+      window.removeEventListener("keydown", e => handleKeydown(e));
     }
-  })
+  }, [])
 
   // Toggle menu
   const toggleMenu = () => setMenuOpen(menuOpen => !menuOpen)

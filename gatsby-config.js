@@ -42,6 +42,13 @@ module.exports = {
       }
     },
     {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: 'images',
+        path: `${__dirname}/src/images`
+      }
+    },
+    {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
         trackingId: config.googleAnalyticsID,
@@ -57,11 +64,12 @@ module.exports = {
             resolve: 'gatsby-remark-images',
             options: {
               maxWidth: 700,
-              linkImagesToOriginal: false
-            }
-          }
+              linkImagesToOriginal: true,
+              quality: 90
+            },
+          },
         ]
-      }
+      },
     },
     {
       resolve: `gatsby-plugin-web-font-loader`,

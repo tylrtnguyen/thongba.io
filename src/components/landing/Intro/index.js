@@ -7,6 +7,7 @@ import {
     StyledRole,
     StyledDescription,
     StyledButtonLink,
+    StyledMagicalButton,
     StyledButtonContainer
 } from './styles'
 import { email } from '@config'
@@ -15,7 +16,7 @@ const Intro = () => {
     // GraphQL Query
     const fetchData = useStaticQuery(graphql`
     query {
-        allMarkdownRemark {
+        allMarkdownRemark(filter: { fileAbsolutePath: { regex: "/landing/" } }) {
               edges {
               node {
                 frontmatter {
@@ -36,7 +37,7 @@ const Intro = () => {
     return (
         <StyledContainer>
             <StyledGreeting>{frontmatter.greeting}</StyledGreeting>
-            <StyledName>{frontmatter.name}.</StyledName>
+            <StyledName>{frontmatter.name}</StyledName>
             <StyledRole>{frontmatter.role}</StyledRole>
             <StyledDescription dangerouslySetInnerHTML={{__html: html}} />
             <StyledButtonContainer>
@@ -44,9 +45,9 @@ const Intro = () => {
                     href="/resume.pdf"
                     target="_blank"
                     rel="nofollow noopener noreferrer">
-                    {frontmatter.buttonResume}
+                    <strong>{frontmatter.buttonResume}</strong>
                 </StyledButtonLink>
-                <StyledButtonLink href={`mailto:${email}`}>{frontmatter.buttonContact}</StyledButtonLink>
+                <StyledButtonLink href="/work"><strong>{frontmatter.buttonContact}</strong></StyledButtonLink>
             </StyledButtonContainer>
         </StyledContainer>
     )

@@ -6,6 +6,7 @@ const ContactPage = () => {
     return (
         <Layout>
             <Main>
+                <SEO title="Contact" />
                 <Title text="Contact me" />
             </Main>
         </Layout>

@@ -2,11 +2,12 @@ import React from "react";
 import { Layout, Title, SEO } from '@components/common';
 import Main from '@templates/Main';
 
-const AboutPage = () => {
+const AboutPage = ({data}) => {
     return (
         <Layout>
             <Main>
-                <Title text="About me"/>
+                <SEO title="About" />
+                <Title text="About me"></Title>
             </Main>
         </Layout>
     )

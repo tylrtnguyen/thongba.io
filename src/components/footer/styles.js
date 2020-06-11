@@ -8,7 +8,7 @@ export const StyledContainer = styled.footer`
     justify-content: center;
     flex-direction: column;
     height: 250px;
-    background: ${colors.ghostWhite};
+    background: ${colors.danteWhite};
     border-top: 1px solid ${colors.danteBrown};
     * {
         margin: 0;
