@@ -45,17 +45,17 @@ const mixins = {
     position: relative;
     transition: ${theme.transition};
     cursor: pointer;
-    color: ${colors.powderBlue};
+    color: ${colors.danteBlue};
     &:hover,
     &:focus,
     &:active {
-      color: ${colors.powderBlue};
+      color: ${colors.lightGreen};
       outline: 0;
       &:after {
         width: 100%;
       }
       & > * {
-        color: ${colors.powderBlue} !important;
+        color: ${colors.danteBlue} !important;
         transition: ${theme.transition};
       }
     }

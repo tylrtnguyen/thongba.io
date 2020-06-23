@@ -43,8 +43,8 @@ const GlobalStyle = createGlobalStyle`
     }
   }
   ::selection {
-    background-color: ${colors.slate};
-    color: ${colors.lightestSlate};
+    background-color: ${colors.danteWhite};
+    color: ${colors.danteBlue};
   }
   #root {
     min-height: 100vh;
@@ -114,7 +114,7 @@ const GlobalStyle = createGlobalStyle`
     border-radius: 0;
     &:focus,
     &:active {
-      outline-color: ${colors.lightblue};
+      outline-color: ${colors.danteBlue};
     }
   }
   input, textarea {
@@ -186,7 +186,7 @@ const GlobalStyle = createGlobalStyle`
     margin: 1rem;
   }
   code {
-    font-family: ${fonts.Monsterrat};
+    font-family: ${fonts.OpenSans};
     font-size: ${fontSizes.md};
   }
   #logo {
@@ -202,7 +202,7 @@ const GlobalStyle = createGlobalStyle`
     color: ${colors.powderBlue};
     margin: 0 0 20px 0;
     font-size: ${fontSizes.md};
-    font-family: ${fonts.Monsterrat};
+    font-family: ${fonts.OpenSans};
     font-weight: normal;
     line-height: 1.5;
     ${media.desktop`font-size: ${fontSizes.sm};`};

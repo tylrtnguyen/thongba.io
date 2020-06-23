@@ -14,7 +14,7 @@ const theme = {
 
     fonts: {
         Pacifico: 'Pacifico',
-        Monsterrat: 'Montserrat'
+        OpenSans: '"Open Sans", sans serif'
     },
 
     fontSizes: {

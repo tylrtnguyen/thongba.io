@@ -36,7 +36,7 @@ const NavBar = () => {
   }, [])
 
   // Toggle menu
-  const toggleMenu = () => setMenuOpen(menuOpen => !menuOpen)
+  const toggleMenu = () => setMenuOpen(!menuOpen)
 
   // Handle user scroll
   const handleScroll = () => {
@@ -71,9 +71,8 @@ const NavBar = () => {
     if (!menuOpen) {
       return
     }
-
     if (e.which === 27 || e.key === "Escape") {
-      toggleMenu()
+      toggleMenu();
     }
   }
 

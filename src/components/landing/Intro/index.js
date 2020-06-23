@@ -7,10 +7,8 @@ import {
     StyledRole,
     StyledDescription,
     StyledButtonLink,
-    StyledMagicalButton,
     StyledButtonContainer
 } from './styles'
-import { email } from '@config'
 
 const Intro = () => {
     // GraphQL Query
