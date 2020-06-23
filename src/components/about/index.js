@@ -1,6 +1,7 @@
 import React from 'react';
 import { useStaticQuery, graphql } from 'gatsby';
 import Image from 'gatsby-image';
+import { github } from '@config';
 import {
   StyledContainer,
   StyledHeading,
@@ -9,7 +10,8 @@ import {
   SkillsContainer,
   Skill,
   StyledAvatarContainer,
-  StyledAvatar
+  StyledAvatar,
+  StyledAvatarLink
 } from './styles'
 
 
@@ -50,7 +52,9 @@ const About = () => {
               </SkillsContainer>
             </StyledContent>
             <StyledAvatarContainer>
+              <StyledAvatarLink href={github}>
               <StyledAvatar fluid={avatar.childImageSharp.fluid} alt="Avatar"/>
+              </StyledAvatarLink>
             </StyledAvatarContainer>
           </StyledFlexContainer>
         </StyledContainer>

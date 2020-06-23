@@ -75,3 +75,17 @@ export const StyledAvatar = styled(Img)`
     border-radius: ${theme.borderRadius};
     transition: ${theme.transition};
 `;
+
+export const StyledAvatarLink = styled.a`
+  ${mixins.boxShadow};
+  width: 100%;
+  position: relative;
+  border-radius: ${theme.borderRadius};
+  background-color: ${colors.danteBrown};
+  cursor: pointer;
+  transition: all .2s ease-in-out;
+  &:hover,
+  &:focus {
+    opacity: 0.5;
+  }
+`

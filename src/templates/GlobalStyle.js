@@ -44,7 +44,7 @@ const GlobalStyle = createGlobalStyle`
   }
   ::selection {
     background-color: ${colors.danteWhite};
-    color: ${colors.danteBlue};
+    color: ${colors.danteBrown};
   }
   #root {
     min-height: 100vh;

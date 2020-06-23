@@ -4,6 +4,9 @@ import theme from './theme'
 const { colors } = theme
 
 const mixins = {
+    boxShadow: css`
+      box-shadow: 10px ${colors.danteBrown};
+    `,
     flexCenter: css`
         display: flex;
         justify-content: center;

@@ -9,11 +9,11 @@ skills:
     - Python
     - React
     - Angular
+    - Gatsby
     - MongoDB
     - MySQL
     - TravisCI
     - AWS (EC2, S3)
-    - Gatsby
 ---
 
 Hi! I'm Thong Ba Nguyen, also known as Tyler, a software enginer based in Toronto, ON.
