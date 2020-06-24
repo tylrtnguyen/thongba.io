@@ -10,7 +10,7 @@ export const StyledList = styled.ul`
     padding: 0;
     margin: 0;
     list-style: none;
-    justtify-content: center;
+    justify-content: center;
 
     &:after {
     content: '';
@@ -20,7 +20,7 @@ export const StyledList = styled.ul`
     margin: 0 auto;
   }
   li:last-of-type {
-    margin-bottom: 30px;
+    margin-bottom: 45px;
   }
 `;
 

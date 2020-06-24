@@ -6,7 +6,8 @@ import {
     IconLinkedin,
     IconFacebook,
     IconDay,
-    IconNight
+    IconNight,
+    IconEmail
 } from '@icons';
 
 const FormattedIcon = ({name}) => {
@@ -19,6 +20,8 @@ const FormattedIcon = ({name}) => {
             return <IconLinkedin />;
         case 'Facebook':
             return <IconFacebook />;
+        case 'Mail':
+            return <IconEmail />;
         case 'Day':
             return <IconDay />;
         case 'Night':

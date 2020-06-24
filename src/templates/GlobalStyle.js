@@ -43,7 +43,7 @@ const GlobalStyle = createGlobalStyle`
     }
   }
   ::selection {
-    background-color: ${colors.danteWhite};
+    background-color: ${colors.powderBlue};
     color: ${colors.danteBrown};
   }
   #root {
@@ -105,7 +105,7 @@ const GlobalStyle = createGlobalStyle`
     &:hover,
     &:focus,
     &:active {
-      color: ${colors.danteBlue};
+      color: ${colors.hoverBlue};
     }
   }
   button {

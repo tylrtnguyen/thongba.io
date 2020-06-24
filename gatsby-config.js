@@ -7,7 +7,9 @@ module.exports = {
     siteUrl: config.siteUrl,
     author: config.name,
     description: config.siteDescription,
-    logo: config.logo
+    keywords: config.siteKeywords,
+    logo: config.mainLogo,
+    location: config.location
   },
   plugins: [
     `gatsby-plugin-styled-components`,

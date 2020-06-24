@@ -6,10 +6,11 @@ const theme = {
         danteBrown: '#363636',
         danteBlue: '#1976D2',
         powderBlue: '#B8DBD9',
+        hoverBlue: '#64B5F6',
         lightGreen: '#B8DBBF',
         ghostWhite: '#F4F4F9',
         danteWhite: '#ECECEC',
-        white: '#F7F7F7'
+        white: '#F7F7F7',
     },
 
     fonts: {

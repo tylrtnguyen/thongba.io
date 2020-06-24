@@ -11,10 +11,10 @@ const SocialMedia = () => (
                 socialMedia.map(({name, url}, index) => (
                     <li key={index}>
                         <StyledLink
-                        href={url}
-                        target="_blank"
-                        rel="nofollow noopener noreferrer"
-                        aria-label={name}>
+                            href={url}
+                            target="_blank"
+                            rel="nofollow noopener noreferrer"
+                            aria-label={name}>
                         <FormattedIcon name={name} />
                         </StyledLink>
                     </li>

@@ -4,10 +4,10 @@ module.exports = {
     siteUrl: 'http://thongba.io',
     siteKeywords: 'Thong Ba Nguyen, Thong Ba, Thong Nguyen, tylrtnguyen, Tyler Thong Nguyen, software engineer, full stack developer, web developer, javascript, toronto',
     siteLanguage: 'en_US',
-    googleAnalyticsID: 'UA-166829591-1',
     name: 'Thong Ba Nguyen',
     location: 'Toronto, ON',
-    logo: '/logo-light.png',
+    mainLogo: '/logo-light.png',
+    darkThemeLogo: './logo-dark.png',
     email: 'hello@thongba.io',
     github: 'https://github.com/tylrtnguyen',
     socialMedia: [
@@ -26,6 +26,10 @@ module.exports = {
         {
             name: 'Instagram',
             url: 'https://www.instagram.com/tylrtnguyen/'
+        },
+        {
+            name: 'Mail',
+            url: 'mailto:hello@thongba.io'
         }
     ],
 

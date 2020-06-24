@@ -4,8 +4,7 @@ import {
   StyledContainer,
   StyledNav,
   StyledLogo,
-  NavbarToggler,
-  Overlay
+  NavbarToggler
 } from "./styles";
 import LogoLight from "@images/logoLight";
 import { throttle } from "@utils";
@@ -90,7 +89,7 @@ const NavBar = () => {
         id="narbarToggler"
         aria-label="Navbar Toggle"
         className={menuOpen ? "open" : ""}
-      >
+        >
         <span className="burger-menu"></span>
       </NavbarToggler>
       </StyledNav>
