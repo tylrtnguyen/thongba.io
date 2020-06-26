@@ -6,7 +6,7 @@ const { colors, fonts, fontSizes } = theme;
 
 export const StyledContainer = styled.section`
     margin: 0 auto;
-    padding: 100px 0 150px 0;
+    padding: 120px 0 150px 0;
     max-width: 1000px;
     position: relative;
     font-size: ${fontSizes.lg};

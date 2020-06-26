@@ -39,6 +39,12 @@ export const Sidebar = styled.aside`
     }
 `;
 
+export const StyledSocialContainer = styled.div`
+    position: absolute;
+    padding: 10px;
+    bottom: 0;
+`
+
 export const Nav = styled.nav`
     ${mixins.flexBetween};
     width: 100%;

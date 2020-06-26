@@ -8,3 +8,4 @@ export { default as Project } from './Project/index';
 export { default as SideBar } from './SideBar/index';
 export { default as Tag } from './Tag/index';
 export { default as Title } from './Title/index';
+export { default as HorizontalSocial } from './HorizontalSocial';

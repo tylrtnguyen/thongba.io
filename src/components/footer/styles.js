@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 import { theme, media } from '@templates';
-const { colors } = theme
+const { colors, fontSizes } = theme
 
 export const StyledContainer = styled.footer`
     display: flex;
@@ -15,37 +15,18 @@ export const StyledContainer = styled.footer`
         padding: 0;
     }
 `
-export const StyledSocial = styled.div`
-    display: flex;
-    align-items: center;
-    justify-content: center;
-`
-
-
-export const StyledIcon = styled.a`
-  padding: 12px;
-  &:hover,
-  &:focus {
-    transform: translateY(-3px);
-  }
-  svg {
-    width: 25px;
-    height: 25px;
-  }
-`
-
 
 export const StyledLogo = styled.div`
     margin-bottom: 15px;
 `
 
 export const StyledCopyright = styled.p`
-  font-size: 15px;
+  font-size: ${fontSizes.sm};
   font-weight: 600;
   color: #656565;
   text-align: center;
   .heart {
-    color: #ff7763;
+    color: #FF7763;
   }
   .copytext {
     display: block;

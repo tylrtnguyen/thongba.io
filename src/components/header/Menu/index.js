@@ -7,16 +7,19 @@ import {
     Nav,
     NavList,
     NavListItem,
-    NavLink
+    NavLink,
+    StyledSocialContainer
 } from './styles';
+import { HorizontalSocial } from '@components/common';
 
 const Menu = ({menuOpen, toggleMenu}) => {
     const handleMenuClick = e => {
         const target = e.target;
         const isLink = target.hasAttribute('href');
-        const isNotMenu = target.classList && target.classList[0].includes('StyledContainer');
-
-        if(isLink || isNotMenu) {
+        const isSocialIcon = target.hasAttribute('d') || target.hasAttribute('xmlns');
+        const isNotMenu = target.classList[0] && target.classList[0].includes('StyledContainer');
+        
+        if(isLink || isSocialIcon || isNotMenu) {
             toggleMenu();
         }
     };
@@ -41,6 +44,9 @@ const Menu = ({menuOpen, toggleMenu}) => {
                         }
                     </NavList>
                 </Nav>
+                <StyledSocialContainer>
+                    <HorizontalSocial />
+                </StyledSocialContainer>
             </Sidebar>
         </StyledContainer>
     )
