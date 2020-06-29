@@ -21,7 +21,7 @@ const SEO = (props) => {
     
     // Prep data for SEO
     const { image, location, description, isPost } = props;
-    const title = props.title === undefined ? data.site.siteMetadata.title : `${props.title} | Thong Ba Nguyen`;
+    const title = props.title === undefined ? data.site.siteMetadata.title : `${props.title} | Thong Nguyen`;
     const ogImage = image || data.site.siteMetadata.logo;
     const siteUrl = data.site.siteMetadata.siteUrl;
     const defaultDescription = data.site.siteMetadata.description;
@@ -91,7 +91,7 @@ const SEO = (props) => {
                 ],
                 url: siteUrl,
                 name: title,
-                alternateName: `${location} | Thong Ba Nguyen`,
+                alternateName: `${location} | Thong Nguyen`,
                 headline: title,
                 image: {
                     '@type': 'ImageObject',

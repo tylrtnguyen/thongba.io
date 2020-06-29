@@ -1,6 +1,6 @@
 module.exports = {
-    siteTitle: 'Thong Ba Nguyen | Software Developer',
-    siteDescription: 'Thong Ba Nguyen is a Software Developer based in Toronto, ON who specializes in building exceptional website from front to back',
+    siteTitle: 'Thong Nguyen | Software Developer',
+    siteDescription: 'Thong Nguyen is a Software Developer based in Toronto, ON who specializes in building exceptional website from front to back',
     siteUrl: 'http://thongba.io',
     siteKeywords: 'Thong Ba Nguyen, Thong Ba, Thong Nguyen, tylrtnguyen, Tyler Thong Nguyen, software engineer, full stack developer, web developer, javascript, toronto',
     siteLanguage: 'en_US',
@@ -43,8 +43,8 @@ module.exports = {
           url: '/about',
         },
         {
-          name: 'Work',
-          url: '/work',
+          name: 'Portfolio',
+          url: '/portfolio',
         },
         {
           name: 'Blog',
@@ -69,5 +69,16 @@ module.exports = {
       ghostWhite: '#F4F4F9',
       danteWhie: '##ECECEC',
       white: '#F7F7F7'
-    }
+    },
+
+    srConfig: () => ({
+      origin: 'right',
+      duration: 800,
+      delay: 200,
+      distance: '50px',
+      scale: 1,
+      easing: 'ease',
+      mobile: true,
+      reset: false
+    })
 }

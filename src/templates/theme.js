@@ -6,6 +6,7 @@ const theme = {
         danteBrown: '#363636',
         danteBlue: '#1976D2',
         powderBlue: '#B8DBD9',
+        betterBlue: '#629AA9',
         hoverBlue: '#64B5F6',
         lightGreen: '#B8DBBF',
         ghostWhite: '#F4F4F9',

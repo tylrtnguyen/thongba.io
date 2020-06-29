@@ -1,7 +1,8 @@
-import React from 'react';
+import React, { useEffect, useRef } from 'react';
 import { useStaticQuery, graphql } from 'gatsby';
-import Image from 'gatsby-image';
-import { github } from '@config';
+import PropTypes from 'prop-types';
+import sr from '@utils/sr';
+import { github, srConfig } from '@config';
 import {
   StyledContainer,
   StyledHeading,
@@ -15,7 +16,7 @@ import {
 } from './styles'
 
 
-const About = () => {
+const About = ({ paddingTop }) => {
     const data = useStaticQuery(graphql`
     query {
       about: allMarkdownRemark(filter: {fileAbsolutePath: { regex : "/about/" }}) {
@@ -41,8 +42,11 @@ const About = () => {
     // Destructure from the query results
     const { frontmatter, html } = data.about.edges[0].node;
     const { title, skills, avatar } = frontmatter;
+    const revealContainer = useRef(null);
+    useEffect(() => sr.reveal(revealContainer.current, srConfig()), []);
+
     return (
-        <StyledContainer>
+        <StyledContainer paddingTop={paddingTop} id="about" ref={revealContainer}>
         <StyledHeading>{title}</StyledHeading>
           <StyledFlexContainer>
             <StyledContent>
@@ -61,5 +65,8 @@ const About = () => {
     )
 }
 
+About.propTypes = {
+  paddingTop: PropTypes.string.isRequired,
+}
 
 export default About;

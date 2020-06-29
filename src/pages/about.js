@@ -10,7 +10,7 @@ const AboutPage = () => {
             <Main>
                 <SEO title="About" />
                 <SocialMedia />
-                <About />
+                <About paddingTop="120px" />
             </Main>
         </Layout>
     )

@@ -6,11 +6,11 @@ const { colors, fonts, fontSizes } = theme;
 
 export const StyledContainer = styled.section`
     margin: 0 auto;
-    padding: 120px 0 150px 0;
+    padding: ${props => props.paddingTop} 0 150px 0;
     max-width: 1000px;
     position: relative;
     font-size: ${fontSizes.lg};
-    ${media.tablet`padding: 0;`}
+    ${media.tablet`padding-top: 0; padding-bottom: 100px`}
 `
 
 export const StyledHeading = styled.h1`

@@ -16,7 +16,7 @@ const DELTA = 5
 
 const NavBar = () => {
   const [menuOpen, setMenuOpen] = useState(false)
-  const [scrollDirection, setScrollDirection] = useState("none")
+  const [scrollDirection, setScrollDirection] = useState('')
   const [lastScrollTop, setLastScrollTop] = useState(0)
 
   useEffect(() => {
@@ -39,26 +39,26 @@ const NavBar = () => {
 
   // Handle user scroll
   const handleScroll = () => {
-    const fromTop = window.scrollY
+    const fromTop = window.scrollY;
 
     // Make sure they scroll greater than DELTA
-    if (Math.abs(lastScrollTop - fromTop) <= DELTA || menuOpen) {
-      return
+    if ((Math.abs(lastScrollTop - fromTop) <= DELTA) || menuOpen) {
+      return;
     }
 
     if (fromTop < DELTA) {
-      setScrollDirection("none")
+      setScrollDirection('none');
     } else if (fromTop > lastScrollTop && fromTop > navHeight) {
       if (scrollDirection !== "down") {
-        setScrollDirection("down")
+        setScrollDirection("down");
       }
     } else if (fromTop + window.innerHeight < document.body.scrollHeight) {
-      if (scrollDirection !== "up") {
-        setScrollDirection("up")
+      if (scrollDirection !== 'up') {
+        setScrollDirection('up');
       }
     }
-    setLastScrollTop(fromTop)
-  }
+    setLastScrollTop(fromTop);
+  };
 
   const handleResize = () => {
     if (window.innerWidth > 768 && menuOpen) {
@@ -68,12 +68,12 @@ const NavBar = () => {
 
   const handleKeydown = e => {
     if (!menuOpen) {
-      return
+      return;
     }
     if (e.which === 27 || e.key === "Escape") {
       toggleMenu();
     }
-  }
+  };
 
   return (
     <StyledContainer scrollDirection={scrollDirection}>

@@ -29,7 +29,7 @@ const mixins = {
     &:hover,
     &:active,
     &:focus {
-      color: ${colors.danteBlue};
+      color: ${colors.hoverBlue};
       outline: 0;
     }
   `,
