@@ -32,7 +32,7 @@ const NavBar = () => {
       window.removeEventListener("resize", () => handleResize());
       window.removeEventListener("keydown", e => handleKeydown(e));
     }
-  }, [])
+  })
 
   // Toggle menu
   const toggleMenu = () => setMenuOpen(!menuOpen)
@@ -70,7 +70,7 @@ const NavBar = () => {
     if (!menuOpen) {
       return;
     }
-    if (e.which === 27 || e.key === "Escape") {
+    if (e.keyCode === 27 || e.key == "Escape") {
       toggleMenu();
     }
   };

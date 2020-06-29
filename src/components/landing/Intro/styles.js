@@ -1,5 +1,4 @@
 import styled from 'styled-components';
-import { BigButton } from '@components/common';
 import { theme, mixins, media, Section } from '@templates';
 const { colors, fontSizes, fonts, borderRadius } = theme;
 

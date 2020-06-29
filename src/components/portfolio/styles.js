@@ -3,7 +3,7 @@ import { theme, media, mixins, Section } from '@templates';
 const { colors, fontSizes } = theme;
 
 export const StyledContainer = styled(Section)`
-    postion: relative;
+    position: relative;
 `;
 
 export const StyledTabs = styled.div`
