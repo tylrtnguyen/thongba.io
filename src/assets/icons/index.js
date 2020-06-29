@@ -4,5 +4,6 @@ export { default as IconLinkedin } from './linkedin';
 export { default as IconFacebook } from './facebook';
 export { default as IconDay } from './day';
 export { default as IconNight } from './night';
-export { default as FormattedIcon } from './formattedIcon';
 export { default as IconEmail } from './email';
+export { default as IconExternal } from './external';
+export { default as FormattedIcon } from './formattedIcon';
