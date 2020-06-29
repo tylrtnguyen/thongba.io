@@ -10,6 +10,7 @@ tags:
     - React
     - MongoDB
     - REST API
+    - JWT Token
 ---
 
-A real-time chat application using Socket.io. The UI is heavily inspired by Slack. This app also includes a dashboard to manage data in the app like Events, Users, Messages.
+A full stack real-time chat application using Socket.io. The UI is heavily inspired by Slack. This app also includes a dashboard to manage data in the app like Events, Users, Messages.

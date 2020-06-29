@@ -46,6 +46,9 @@
 - title: Heroku
   bg: '#433882'
   color: '#F4F4F4'
+- title: 'JWT Token'
+  bg: '#D63AFF'
+  color: '#F4F4F4'
 - title: UI/UX
   bg: '#4CC08F'
   color: '#F4F4F4'

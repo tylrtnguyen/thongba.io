@@ -16,7 +16,7 @@ skills:
     - AWS (EC2, S3)
 ---
 
-Hi! I'm Thong Ba Nguyen, also known as Tyler, a software enginer based in Toronto, ON.
+Hi! I'm Thong Ba Nguyen, also known as Tyler, a software developer based in Toronto, ON.
 
 I enjoy utilizing code to build high-quality applications whether they are web or mobile apps. Also, I'm interested in applying CI/CD and other DevOps tools such as Docker, Kubernetes into to my applications to make it more reliable and scalable.
 
