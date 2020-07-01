@@ -45,7 +45,7 @@ const Intro = () => {
                     rel="nofollow noopener noreferrer">
                     <strong>{frontmatter.buttonResume}</strong>
                 </StyledButtonLink>
-                <StyledButtonLink href="/work"><strong>{frontmatter.buttonContact}</strong></StyledButtonLink>
+                <StyledButtonLink href="/portfolio"><strong>{frontmatter.buttonContact}</strong></StyledButtonLink>
             </StyledButtonContainer>
         </StyledContainer>
     )

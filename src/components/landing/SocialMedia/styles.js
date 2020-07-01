@@ -1,6 +1,5 @@
 import styled from 'styled-components';
-import { theme } from '@templates';
-const { colors } = theme;
+
 
 export const StyledList = styled.ul` 
     display: flex;

@@ -1,8 +1,7 @@
-import React, { useEffect, useRef } from 'react';
+import React from 'react';
 import { useStaticQuery, graphql } from 'gatsby';
 import PropTypes from 'prop-types';
-import sr from '@utils/sr';
-import { github, srConfig } from '@config';
+import { github } from '@config';
 import {
   StyledContainer,
   StyledHeading,
@@ -42,11 +41,9 @@ const About = ({ paddingTop }) => {
     // Destructure from the query results
     const { frontmatter, html } = data.about.edges[0].node;
     const { title, skills, avatar } = frontmatter;
-    const revealContainer = useRef(null);
-    useEffect(() => sr.reveal(revealContainer.current, srConfig()), []);
 
     return (
-        <StyledContainer paddingTop={paddingTop} id="about" ref={revealContainer}>
+        <StyledContainer paddingTop={paddingTop} id="about">
         <StyledHeading>{title}</StyledHeading>
           <StyledFlexContainer>
             <StyledContent>

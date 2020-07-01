@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 import { theme, mixins, media } from '@templates';
 import { Link } from 'gatsby';
-const { fontSizes, colors } = theme; 
+const { fontSizes } = theme; 
 
 export const StyledLink = styled.div`
     display: flex;

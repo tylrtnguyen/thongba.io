@@ -70,7 +70,7 @@ const NavBar = () => {
     if (!menuOpen) {
       return;
     }
-    if (e.keyCode === 27 || e.key == "Escape") {
+    if (e.keyCode === 27 || e.key === "Escape") {
       toggleMenu();
     }
   };

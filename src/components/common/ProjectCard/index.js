@@ -9,7 +9,7 @@ import {
     StyledButton
 } from './styles'
 
-const ProjectCard = () => {
+const ProjectCard = ({ data }) => {
     return (
         <StyledContainer>
             <StyledCard>

@@ -8,7 +8,8 @@ import {
     IconDay,
     IconNight,
     IconEmail,
-    IconExternal
+    IconExternal,
+    IconDefault
 } from '@icons';
 
 const FormattedIcon = ({name}) => {
@@ -29,6 +30,8 @@ const FormattedIcon = ({name}) => {
             return <IconNight />;
         case 'External':
             return <IconExternal />;
+        default:
+            return <IconDefault />;
     }
 }
 
