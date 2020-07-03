@@ -10,7 +10,7 @@ export const StyledContainer = styled.section`
     max-width: 1000px;
     position: relative;
     font-size: ${fontSizes.lg};
-    ${media.tablet`padding-top: 0; padding-bottom: 100px`}
+    ${media.tablet`padding-top: 100px; padding-bottom: 100px`}
 `
 
 export const StyledHeading = styled.h1`

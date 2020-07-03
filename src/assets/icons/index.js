@@ -7,4 +7,6 @@ export { default as IconNight } from './night';
 export { default as IconEmail } from './email';
 export { default as IconExternal } from './external';
 export { default as IconDefault } from './default';
+export { default as IconSend } from './send';
+export { default as IconSuccess } from './success';
 export { default as FormattedIcon } from './formattedIcon';

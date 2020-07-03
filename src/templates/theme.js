@@ -12,6 +12,10 @@ const theme = {
         ghostWhite: '#F4F4F9',
         danteWhite: '#ECECEC',
         white: '#F7F7F7',
+        secondary: '#C2C6C5',
+        footer: '#364447',
+        error: '#D0454C',
+        success: '#529E66'
     },
 
     fonts: {

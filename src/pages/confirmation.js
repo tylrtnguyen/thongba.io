@@ -1,17 +1,17 @@
 import React from 'react'
 import { Layout, Title, SEO } from '@components/common';
 import Main from '@templates/Main';
-import { ContactForm } from '@components/contact';
+import { Confirmation } from '@components/contact';
 
-const ContactPage = () => {
+const ConfirmationPage = () => {
     return (
         <Layout>
             <Main>
-                <SEO title="Contact" />
-                <ContactForm />
+                <SEO title="Confirmation" />
+                <Confirmation />
             </Main>
         </Layout>
     )
 }
 
-export default ContactPage
+export default ConfirmationPage;

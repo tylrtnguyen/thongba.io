@@ -1,27 +1,40 @@
 
 import styled from 'styled-components';
-import { theme } from '@templates'
+import { theme, media } from '@templates'
 const { colors, fontSizes, fonts } = theme;
 
-export const BigButton = styled.a`
-    color: ${colors.powderBlue};
-    background-color: transparent;
-    border: 1px solid ${colors.powderBlue};
-    border-radius: ${theme.borderRadius};
-    padding: 1.25rem 1.75rem;
-    font-size: ${fontSizes.sm};
-    font-family: ${fonts.Montserrat};
-    line-height: 1;
-    text-decoration: none;
-    cursor: pointer;
-    &:hover,
-    &:focus,
-    &:active {
-      background-color: ${colors.powderBlue};
-    }
-    &:after {
-      display: none !important;
-    }
+const BigButton = styled.button`
+  background-image: linear-gradient(10deg, #0072ff 0%, #00c6ff 100%);
+  cursor: pointer;
+  color: ${colors.danteWhite};
+  border-radius: 40px;
+  font-size: ${fontSizes.md};
+  margin-top: 20px;
+  width: 160px;
+  height: 50px;
+  box-shadow: 0 4px 0px -4px #6a93ff;
+  border: none;
+  -webkit-appearance: none;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  &:focus {
+    outline: none;
+  }
+  &:disabled {
+    background: gray;
+  }
+
+  ${media.phablet`flex: unset;`}
+
+  svg {
+      width: 30px;
+      height: 30px;
+      padding-right: 10px;
+  }
 `
 
 export default BigButton

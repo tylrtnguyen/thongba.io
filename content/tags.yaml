@@ -43,6 +43,9 @@
 - title: Vercel
   bg: '#000000'
   color: '#F4F4F4'
+- title: Figma
+  bg: '#2D2F37'
+  color: '#FF7262'
 - title: Storybook
   bg: '#FF4785'
   color: '#FFFFFF'

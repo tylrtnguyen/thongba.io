@@ -3,7 +3,7 @@ import { theme, media, mixins, Section } from '@templates';
 const { colors, fontSizes } = theme;
 
 export const StyledContainer = styled(Section)`
-    padding: 150px 0 150px 0;
+    padding: 120px 0 150px 0;
     position: relative;
     display: flex;
 `;
@@ -25,6 +25,10 @@ export const StyledGrid = styled.div`
     ${media.desktop`grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));`};
   }
 `
+export const StyledHeading = styled.h1`
+    font-size: ${fontSizes.h3};
+    padding-bottom: 10px;
+`
 
 export const StyledTabList = styled.ul`
     display: block;
@@ -34,13 +38,6 @@ export const StyledTabList = styled.ul`
     padding: 0;
     list-style: none;
 
-    ${media.thone`
-    display: flex;
-    overflow-x: scroll;
-    margin-bottom: 30px;
-    width: calc(100% + 100px);
-    margin-left: -50px;
-    `};
     ${media.phablet`
     width: calc(100% + 50px);
     margin-left: -25px;
@@ -48,17 +45,11 @@ export const StyledTabList = styled.ul`
 
     li {
     &:first-of-type {
-      ${media.thone`
-        margin-left: 50px;
-      `};
       ${media.phablet`
         margin-left: 25px;
       `};
     }
     &:last-of-type {
-      ${media.thone`
-        padding-right: 50px;
-      `};
       ${media.phablet`
         padding-right: 25px;
       `};
@@ -70,6 +61,7 @@ export const StyledTabButton = styled.button`
     ${mixins.link};
     display: flex;
     align-items: center;
+    font-size: ${fontSizes.sm};
     width: 100%;
     background-color: transparent;
     height: ${theme.tabHeight}px;

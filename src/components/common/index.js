@@ -1,6 +1,7 @@
 export { default as Layout } from './Layout';
 export { default as BigButton } from './BigButton';
 export { default as SmallButton } from './SmallButton';
+export { default as ButtonLink } from './ButtonLink';
 export { default as Card } from './Card';
 export { default as CardPost } from './CardPost';
 export { default as SEO } from './SEO';

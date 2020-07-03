@@ -7,7 +7,8 @@ import {
     StyledTabButton,
     StyledTabList,
     StyledTabs,
-    StyledGrid
+    StyledGrid,
+    StyledHeading
 } from './styles'
 import { ProjectCard } from '@components/common';
 
@@ -84,7 +85,7 @@ const Portfolio = () => {
         <StyledContainer id="portfolio" ref={revealContainer}>
             <StyledTabs>
                 <StyledTabList role="tablist" aria-label="Project topic tabs" onKeyDown={e => onKeyPressed(e)}>
-                    <h3>Category</h3>
+                    <StyledHeading>Category</StyledHeading>
                     {
                         categories &&
                         categories.map((category, i) => {
@@ -109,6 +110,7 @@ const Portfolio = () => {
                 </StyledTabList>             
             </StyledTabs>
             <StyledGrid>
+            <StyledHeading>Featured Projects</StyledHeading>
                     <div className="projects">
                         {projects &&
                         projects.filter(({node}) => node.frontmatter.type === activeTabId).map((node, i) => {

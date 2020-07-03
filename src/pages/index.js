@@ -4,6 +4,7 @@ import { Intro } from '@components/landing';
 import { SocialMedia } from '@components/landing';
 import Main from '@templates/Main';
 import About from '@components/about';
+import Portfolio from '@components/portfolio';
 
 
 
@@ -14,6 +15,7 @@ const IndexPage = () => {
                     <SocialMedia />
                     <Intro />
                     <About paddingTop="100px"/>
+                    <Portfolio />
                 </Main>
             </Layout> 
     )

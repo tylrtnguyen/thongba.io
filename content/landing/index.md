@@ -1,7 +1,7 @@
 ---
 greeting: 'Hi, my name is'
-name: 'Thong Nguyen.'
-role: 'I develop amazing applications.'
+name: 'Thong Ba Nguyen.'
+role: 'I design and build applications.'
 buttonResume: 'View Resume'
 buttonContact: 'See Work'
 ---
