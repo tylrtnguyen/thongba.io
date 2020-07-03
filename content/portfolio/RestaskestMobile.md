@@ -1,5 +1,5 @@
 ---
-date: '2020-02-27'
+date: '2020-03-16'
 title: 'The Prototype of the Mobile Version of Restaskest'
 type: 'UI/UX Design'
 thumbnail: './images/restaskest-mobile.png'

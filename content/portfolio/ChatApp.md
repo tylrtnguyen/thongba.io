@@ -7,7 +7,7 @@ github: 'https://github.com/tylrtnguyen/realtime-chat-app'
 external: 'https://chat-app-frontend.now.sh/'
 tags:
     - JavaScript
-    - React
+    - React.js
     - MongoDB
     - REST API
     - JWT Token

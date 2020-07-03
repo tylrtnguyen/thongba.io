@@ -4,25 +4,25 @@
 - title: TypeScript
   bg: '#007ACC'
   color: '#F4F4F4'
-- title: Python
+- title: Python 3
   bg: '#2BD1AA'
   color: '#F4F4F4'
 - title: MongoDB
   bg: '#4A71A9'
   color: '#F4F4F4'
 - title: Github API
-  bg: '#202020'
+  bg: '#393E46'
   color: '#F4F4F4'
 - title: REST API
   bg: '#B3695B'
   color: '#F4F4F4'
 - title: TravisCI
-  bg: '#F5F4CA'
+  bg: '#F4EDAE'
+  color: '#E92C35'
+- title: React.js
+  bg: '#7DDFFF'
   color: '#212121'
-- title: React
-  bg: '#61DAFB'
-  color: '#F4F4F4'
-- title: Angular
+- title: Angular.js
   bg: '#A41E11'
   color: '#F4F4F4'
 - title: Gatsby
@@ -43,6 +43,9 @@
 - title: Vercel
   bg: '#000000'
   color: '#F4F4F4'
+- title: Storybook
+  bg: '#FF4785'
+  color: '#FFFFFF'
 - title: Heroku
   bg: '#433882'
   color: '#F4F4F4'

@@ -3,15 +3,28 @@ import { theme, media, mixins, Section } from '@templates';
 const { colors, fontSizes } = theme;
 
 export const StyledContainer = styled(Section)`
+    padding: 150px 0 150px 0;
     position: relative;
+    display: flex;
 `;
 
 export const StyledTabs = styled.div`
     display: flex;
+    padding-right: 100px;
     align-items: flex-start;
     position: relative;
-    ${media.thone`display: block;`}
+    ${media.thone`display: none;`}
 `;
+
+export const StyledGrid = styled.div`
+  .projects {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    grid-gap: 15px;
+    position: relative;
+    ${media.desktop`grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));`};
+  }
+`
 
 export const StyledTabList = styled.ul`
     display: block;
@@ -19,7 +32,6 @@ export const StyledTabList = styled.ul`
     width: max-content;
     z-index: 3;
     padding: 0;
-    margin: 0;
     list-style: none;
 
     ${media.thone`
@@ -77,6 +89,7 @@ export const StyledTabButton = styled.button`
     &:hover,
     &:focus {
         background-color: ${colors.hoverBlue};
+        color: ${colors.danteWhite};
     }
 `
 

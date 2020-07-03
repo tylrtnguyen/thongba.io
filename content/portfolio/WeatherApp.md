@@ -6,10 +6,10 @@ type: 'Web Development'
 github: 'https://github.com/tylrtnguyen/30-js-apps-in-30-days/tree/master/weather-app'
 external: 'https://weather-app-gray.now.sh/'
 tags:
-    - React
+    - React.js
     - JavaScript
-    - TravisCI
     - Vercel
+    - TravisCI
 ---
 
-A progressive app to check weather based on user's location. This application uses [OpenWeather API](https://openweathermap.org/api)
+A progressive web app to check weather based on user's location. This application uses [OpenWeather API](https://openweathermap.org/api)

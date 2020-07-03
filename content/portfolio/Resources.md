@@ -9,3 +9,5 @@ tags:
     - Tech
     - DevLife
 ---
+
+This is a list of useful programming resources that I've been collected on my learning journey.

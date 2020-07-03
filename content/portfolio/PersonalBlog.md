@@ -7,6 +7,7 @@ github: 'https://github.com/tylrtnguyen/gatsby-hello'
 tags:
     - Gatsby
     - TravisCI
+    - Vercel
 ---
 
-A personal blog built with Gatsby and Contentful API.
+A simple personal blog built using gatsby-blog-starter template. Includes page navigation (Gatsby Link), dynamic content display (Contentful API).
