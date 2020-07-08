@@ -1,5 +1,5 @@
 import React from 'react'
-import { Layout, Title, SEO } from '@components/common';
+import { Layout, SEO } from '@components/common';
 import Main from '@templates/Main';
 import { ContactForm } from '@components/contact';
 

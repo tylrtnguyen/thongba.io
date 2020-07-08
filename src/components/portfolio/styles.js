@@ -4,15 +4,16 @@ const { colors, fontSizes } = theme;
 
 export const StyledContainer = styled(Section)`
     padding: 120px 0 150px 0;
-    position: relative;
     display: flex;
+    position: relative;
 `;
 
 export const StyledTabs = styled.div`
-    display: flex;
     padding-right: 100px;
-    align-items: flex-start;
-    position: relative;
+    position: sticky;
+    position: -webkit-sticky; /* Safari */
+    top: 100px;
+    height: 100vh;
     ${media.thone`display: none;`}
 `;
 

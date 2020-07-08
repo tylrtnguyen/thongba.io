@@ -16,7 +16,7 @@ const Portfolio = () => {
     const data = useStaticQuery(graphql`
         query {
             allMarkdownRemark( filter: { fileAbsolutePath: {regex: "/portfolio/" }},
-                                        sort: { fields: frontmatter___date, order: ASC}){
+                                        sort: { fields: frontmatter___date, order: ASC }){
                 edges {
                     node {
                         frontmatter {

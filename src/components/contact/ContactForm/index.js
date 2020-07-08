@@ -12,8 +12,7 @@ import {
     StyledCenter,
     StyledError,
     StyledInput,
-    StyledText,
-    StyledSendButton
+    StyledText
 } from './styles';
 
 const validationSchema = Yup.object({

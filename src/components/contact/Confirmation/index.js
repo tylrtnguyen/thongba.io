@@ -6,7 +6,6 @@ import {
     StyledBody,
     StyledBackButton
 } from './styles';
-import { BigButton } from '@components/common';
 import { FormattedIcon } from '@icons'
 
 const Confirmation = () => (

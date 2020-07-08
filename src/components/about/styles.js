@@ -62,7 +62,7 @@ export const StyledAvatarContainer = styled.div`
   position: relative;
   width: 50%;
   max-width: 400px;
-  margin-left: 60px;
+  margin-left: 40px;
   ${media.tablet`margin: 60px auto 0;`};
   ${media.phablet`width: 70%;`};
   a {
