@@ -10,4 +10,4 @@ tags:
     - Vercel
 ---
 
-A simple personal blog built using gatsby-blog-starter template. Includes page navigation (Gatsby Link), dynamic content display (Contentful API).
+A simple personal blog built using gatsby-blog-starter template.

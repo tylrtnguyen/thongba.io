@@ -24,7 +24,7 @@ const ProjectCard = ({ data }) => {
                     <StyledThumbnail fluid={thumbnail.childImageSharp.fluid} objectFit="cover" alt="Project Thumbnail" />
                 </StyledCardHeader>
                 <StyledTagContainer>
-                    {tags && tags.map((tag, i) => <Tag tag={tag}/>)}
+                    {tags && tags.map((tag, i) => <Tag key={i} tag={tag}/>)}
                 </StyledTagContainer>
                 <StyledCardBody>
                 <StyledTitle>{title}</StyledTitle>

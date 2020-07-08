@@ -1,6 +1,6 @@
 ---
 date: '2020-02-25'
-title: 'The Prototype of Restaskest Application'
+title: 'Restaskest - Web Version'
 type: 'UI/UX Design'
 thumbnail: './images/restaskest-ui.png'
 external: 'https://www.figma.com/proto/4ziukeKzoys3Tio2YA9W5i/T30_Mockup_WebVersion?node-id=17%3A51&scaling=contain'

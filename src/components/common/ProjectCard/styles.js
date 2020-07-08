@@ -10,7 +10,9 @@ export const StyledContainer = styled.div`
     grid-gap: 60px;
     max-width: 100%;
     margin: auto;
-    ${media.tablet`grid-template-columns: repeat(1fr);`};
+    ${media.tablet`
+                grid-template-columns: repeat(1fr); 
+                justify-items: center;`};
 `
 
 export const StyledCard = styled.div`
@@ -27,6 +29,7 @@ export const StyledThumbnail = styled(Img)`;
     position: relative;
     transition: ${theme.transition};
 `;
+
 export const StyledTagContainer = styled.div`
     display: flex;
     align-items: center;
@@ -56,7 +59,7 @@ export const StyledTitle = styled.h4`
     margin: 10px 0;
 `
 
-export const StyledDescription = styled.p`
+export const StyledDescription = styled.div`
     font-size: ${fontSizes.md};
     margin: 0 0 40px;
 `

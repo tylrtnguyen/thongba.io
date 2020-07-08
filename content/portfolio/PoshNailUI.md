@@ -1,6 +1,6 @@
 ---
 date: '2020-01-18'
-title: 'Posh Nail Spa UI'
+title: 'Posh Nail Spa'
 thumbnail: './images/posh-nail.png'
 type: 'UI/UX Design'
 external: 'https://www.figma.com/proto/XiaWaLimVlj9ghSEFi1H08/PoshNailSpa?scaling=contain&node-id=140%3A25'

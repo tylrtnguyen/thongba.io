@@ -1,6 +1,6 @@
 ---
 date: '2020-03-16'
-title: 'The Prototype of the Mobile Version of Restaskest'
+title: 'Restaskest - Mobile Version'
 type: 'UI/UX Design'
 thumbnail: './images/restaskest-mobile.png'
 external: 'https://www.figma.com/proto/Hq5VkkVJbeT4W7sXJJO21t/T30_MockUp_MobileVersion?node-id=1%3A11&scaling=scale-down'

@@ -12,4 +12,4 @@ tags:
     - JWT Token
 ---
 
-A cross-platform application built to help restaurants' managers in managing their resources. Includes profit visualization (highchart.js), payroll storage (AWS S3), employee scheduler.
+A cross-platform application built to help restaurants manage their resources.

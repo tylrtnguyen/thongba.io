@@ -6,10 +6,12 @@ export const StyledContainer = styled(Section)`
     padding-top: 120px;
     text-align: left;
     max-width: 700px;
+    ${media.thone`padding: 0`};
 `;
 
 export const StyledFormGroup = styled.div`
     margin-bottom: 2rem;
+    ${media.thone`margin-bottom: 1rem;`};
 `;
 
 export const StyledInput = styled.div`
@@ -24,7 +26,7 @@ export const StyledInput = styled.div`
     padding: 0.6rem 1rem;
     -webkit-appearance: none;
     color: ${colors.danteBrown};
-
+    ${media.thone`margin-bottom: 0;`};
     &:focus {
         border-color: #212121;
         transition: all 0.2s ease;
