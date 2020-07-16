@@ -6,6 +6,12 @@ import {
     StyledListLink 
 } from './styles';
 import { navLinks } from '@config'; 
+import { theme } from '@templates';
+
+const activeStyle = {
+    color: `${theme.colors.hoverBlue}`
+}
+
 
 const NavLinks = () => (
     <StyledLink>
@@ -15,7 +21,7 @@ const NavLinks = () => (
                     <StyledListItem
                         key={index}
                     >
-                        <StyledListLink to={url}>{name}</StyledListLink>
+                        <StyledListLink to={url} activeStyle={activeStyle}>{name}</StyledListLink>
                     </StyledListItem>
                 ))
             }

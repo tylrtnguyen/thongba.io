@@ -4,11 +4,11 @@ const { colors } = theme;
 
 const StyledContainer = styled.div`
     width: 40px;
-    position: fixed;
+    position: absolute;
     bottom: 0;
     left: ${props => (props.orientation === 'left' ? '40px' : 'auto')};
     right: ${props => (props.orientation === 'right' ? 'auto' : '40px')};
-    z-index: 10;
+    z-index: 1;
     color: ${colors.ghostWhite};
     ${media.desktop`right: 25px;`};
     ${media.tablet`display: none;`};

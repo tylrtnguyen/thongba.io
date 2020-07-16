@@ -91,7 +91,7 @@ const NavBar = () => {
         className={menuOpen ? "open" : ""}
         >
         <span className="burger-menu"></span>
-      </NavbarToggler>
+        </NavbarToggler>
       </StyledNav>
       <Menu menuOpen={menuOpen} toggleMenu={toggleMenu} />    
     </StyledContainer>

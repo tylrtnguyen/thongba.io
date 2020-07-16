@@ -1,16 +1,14 @@
 import styled from 'styled-components';
 import Img from "gatsby-image"
-import { theme, mixins, media } from '@templates';
+import { theme, mixins, media, Section } from '@templates';
 const { colors, fonts, fontSizes } = theme;
 
 
-export const StyledContainer = styled.section`
+export const StyledContainer = styled(Section)`
     margin: 0 auto;
-    padding: ${props => props.paddingTop} 0 150px 0;
     max-width: 1000px;
     position: relative;
     font-size: ${fontSizes.lg};
-    ${media.tablet`padding-top: 100px; padding-bottom: 100px`}
 `
 
 export const StyledHeading = styled.h1`

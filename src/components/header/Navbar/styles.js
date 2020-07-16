@@ -6,7 +6,7 @@ export const StyledContainer = styled.header`
     ${mixins.flexBetween};
     position: fixed;
     top: 0;
-    padding: 0 50px;
+    padding: 10px 50px;
     background-color: ${colors.danteWhite};
     transition: ${transition};
     z-index: 11;
@@ -33,11 +33,16 @@ export const StyledNav = styled.nav`
 
 export const StyledLogo = styled.div` 
     ${mixins.flexCenter};
+    z-index: 2;
     a {
-    display: block;
-    width: 64px;
-    height: 64px;
-  }
+      display: block;
+      width: 200px;
+      height: 90px;
+   };
+   ${media.thone`a {
+     width: 133px;
+     height: 60px;
+   };`};
 `;
 
 const ba = `
