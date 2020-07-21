@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 import { theme, mixins, media, Section } from '@templates';
-const { colors, fontSizes, fonts, borderRadius } = theme;
+const { colors, fontSizes, borderRadius } = theme;
 
 
 export const StyledContainer = styled(Section)`
@@ -18,7 +18,7 @@ export const StyledGreeting = styled.h1`
     color: ${colors.danteBrown};
     margin: 0 0 20px 3px;
     font-size: ${fontSizes.md};
-    font-family: ${fonts.Pacifico};
+    font-family: Pacifico-Regular;
     font-weight: normal;
     ${media.desktop`font-size: ${fontSizes.sm}`};
     ${media.tablet`font-size: ${fontSizes.smish}`};
@@ -26,7 +26,8 @@ export const StyledGreeting = styled.h1`
 
 export const StyledName = styled.h2`
     font-size: 68px;
-    line-height: 1.1;
+    font-family: Montserrat-Bold;
+    line-height: 1.2;
     color: ${colors.danteBrown};
     margin: 0;
     ${media.desktop`font-size: 60px;`};
@@ -36,8 +37,10 @@ export const StyledName = styled.h2`
 `;
 
 export const StyledRole = styled.h3`
-    font-size: 56px;
-    line-height: 1.1;
+    font-size: 60px;
+    font-family: Montserrat-SemiBold;
+    padding-top: 10px;
+    line-height: 1.2;
     color: ${colors.danteBlue};
     ${media.desktop`font-size: 50px;`};
     ${media.tablet`font-size: 50px;`};
@@ -49,6 +52,8 @@ export const StyledDescription = styled.div`
     margin-top: 25px;
     width: 70%;
     max-width: 500px;
+    font-family: Montserrat-Regular;
+    line-height: 1.3;
     p {
         font-size: ${fontSizes.lg};
     }
@@ -66,7 +71,7 @@ export const StyledButtonLink = styled.a`
     padding: 1.25rem 1.75rem;
     margin-right: 1.75rem;
     font-size: ${fontSizes.sm};
-    font-family: ${fonts.OpenSans};
+    font-family: Montserrat-Regular;
     line-height: 1;
     text-decoration: none;
     cursor: pointer;

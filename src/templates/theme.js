@@ -18,11 +18,6 @@ const theme = {
         success: '#529E66'
     },
 
-    fonts: {
-        Pacifico: 'Pacifico',
-        OpenSans: '"Open Sans", sans serif'
-    },
-
     fontSizes: {
         xs: '12px',
         smish: '13px',

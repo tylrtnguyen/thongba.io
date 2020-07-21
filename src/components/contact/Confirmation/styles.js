@@ -1,13 +1,12 @@
 import styled from 'styled-components';
-import { theme, Section, media } from '@templates';
+import { theme, Section, media, mixins } from '@templates';
 import { Link } from 'gatsby';
-const { fonts, colors, fontSizes } = theme;
+const { colors, fontSizes } = theme;
 
 export const StyledContainer = styled(Section)`
-    display: flex;
+    ${mixins.flexBetween};
+    padding: 150px 150px;
     box-sizing: border-box;
-    align-items: center;
-    justify-content: center;
     flex-direction: column;
 `
 
@@ -17,7 +16,8 @@ export const StyledIcon = styled.div`
 
 export const StyledHeader = styled.h2`
     color: ${colors.charcoal};
-    font-size: 48px;
+    font-size: 50px;
+    font-family: Montserrat-Bold;
     padding: 0.8rem 1rem;
     ${media.tablet`font-size:${fontSizes.h3}`}
     ${media.thone`font-size:${fontSizes.lg}`}
@@ -26,7 +26,9 @@ export const StyledHeader = styled.h2`
 export const StyledBody = styled.p`
     color: ${colors.danteBrown};
     font-size: ${fontSizes.md};
-    padding-bottom: 1rem;
+    font-family: Montserrat-Regular;
+    text-align: center;
+    padding-bottom: 0.6rem;
     ${media.thone`font-size:${fontSizes.sm}`}
 `
 
@@ -38,7 +40,7 @@ export const StyledBackButton = styled(Link)`
     padding: 1.25rem 1.75rem;
     margin-right: 1.75rem;
     font-size: ${fontSizes.md};
-    font-family: ${fonts.OpenSans};
+    font-family: Montserrat-Regular;
     line-height: 1;
     text-decoration: none;
     cursor: pointer;

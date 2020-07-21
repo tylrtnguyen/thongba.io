@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 import { theme, media } from '@templates';
 import { Link } from 'gatsby';
-const { colors, fonts, fontSizes } = theme;
+const { colors, fontSizes } = theme;
 
 const ButtonLink = styled(Link)`
     color: ${colors.danteBrown};
@@ -11,7 +11,7 @@ const ButtonLink = styled(Link)`
     padding: 1.25rem 1.75rem;
     margin-right: 1.75rem;
     font-size: ${fontSizes.sm};
-    font-family: ${fonts.OpenSans};
+    font-family: Montserrat-Regular;
     line-height: 1;
     text-decoration: none;
     cursor: pointer;

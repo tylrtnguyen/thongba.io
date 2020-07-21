@@ -4,7 +4,7 @@ import { Layout, SEO } from '@components/common';
 import Main from '@templates/Main';
 import { theme, mixins, media } from '@templates';
 import { ButtonLink } from '@components/common';
-const { colors, fonts } = theme;
+const { colors } = theme;
 
 const StyledContainer = styled(Main)`
     ${mixins.flexCenter};
@@ -13,7 +13,7 @@ const StyledContainer = styled(Main)`
 
 const StyledTitle = styled.h1`
     color: ${colors.danteBlue};
-    font-family: ${fonts.Pacifico};
+    font-family: Pacifico-Regular;
     font-size: 12vw;
     line-height: 1;
     ${media.bigDesktop`font-size: 200px;`};
@@ -21,7 +21,7 @@ const StyledTitle = styled.h1`
 `
 const StyledSubTitle = styled.h2`
     color: ${colors.danteBrown};
-    font-family: ${fonts.OpenSans};
+    font-family: Montserrat-Regular;
     font-size: 3vw;
     font-weight: 400;
     ${media.bigDesktop`font-size: 50px;`};

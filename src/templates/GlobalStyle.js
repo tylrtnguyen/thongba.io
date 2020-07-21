@@ -3,7 +3,7 @@ import theme from './theme';
 import mixins from './mixins';
 import FontFaces from './fonts'
 import media from './media'
-const { colors, fontSizes, fonts } = theme;
+const { colors, fontSizes } = theme;
 
 const GlobalStyle = createGlobalStyle`
   ${FontFaces};
@@ -185,7 +185,7 @@ const GlobalStyle = createGlobalStyle`
     margin: 1rem;
   }
   code {
-    font-family: ${fonts.OpenSans};
+    font-family: Montserrat-Regular;
     font-size: ${fontSizes.md};
   }
   #logo {
@@ -193,7 +193,7 @@ const GlobalStyle = createGlobalStyle`
   }
   .overline {
     color: ${colors.powderBlue};
-    font-family: ${fonts.Monsterrat};
+    font-family: Montserrat-Regular;
     font-size: ${fontSizes.md};
     font-weight: normal;
   }
@@ -201,7 +201,7 @@ const GlobalStyle = createGlobalStyle`
     color: ${colors.powderBlue};
     margin: 0 0 20px 0;
     font-size: ${fontSizes.md};
-    font-family: ${fonts.OpenSans};
+    font-family: Montserrat-Regular;
     font-weight: normal;
     line-height: 1.5;
     ${media.desktop`font-size: ${fontSizes.sm};`};
@@ -223,7 +223,7 @@ const GlobalStyle = createGlobalStyle`
     }
     a {
       ${mixins.inlineLink};
-      font-family: ${fonts.Monsterrat};
+      font-family: Montserrat-Regular;
       font-size: ${fontSizes.sm};
       font-weight: bold;
       line-height: 1.5;

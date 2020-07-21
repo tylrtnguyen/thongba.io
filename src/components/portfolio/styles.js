@@ -28,6 +28,7 @@ export const StyledGrid = styled.div`
 `
 export const StyledHeading = styled.h1`
     font-size: ${fontSizes.h3};
+    font-family: Montserrat-Regular;
     padding-bottom: 10px;
 `
 
@@ -62,6 +63,7 @@ export const StyledTabButton = styled.button`
     ${mixins.link};
     display: flex;
     align-items: center;
+    font-family: Montserrat-Regular;
     font-size: ${fontSizes.sm};
     width: 100%;
     background-color: transparent;

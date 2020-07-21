@@ -1,13 +1,14 @@
 
 import styled from 'styled-components';
 import { theme, media } from '@templates'
-const { colors, fontSizes, fonts } = theme;
+const { colors, fontSizes } = theme;
 
 const BigButton = styled.button`
   background-image: linear-gradient(10deg, #0072ff 0%, #00c6ff 100%);
   cursor: pointer;
   color: ${colors.danteWhite};
   border-radius: 40px;
+  font-family: Montserrat-Regular;
   font-size: ${fontSizes.md};
   margin-top: 20px;
   width: 160px;

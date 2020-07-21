@@ -12,7 +12,9 @@ import {
     StyledCenter,
     StyledError,
     StyledInput,
-    StyledText
+    StyledText,
+    StyledHeading,
+    StyledParagraph
 } from './styles';
 
 const validationSchema = Yup.object({
@@ -52,13 +54,13 @@ const ContactForm = () => {
 
     return (
         <StyledContainer>
-            <StyledText>
-                Please feel free to contact me via{' '}
-                <a href="mailto:hello@thongba.io" target="_top">hello@thongba.io</a>
-            </StyledText>
-            <StyledText>
-                Or fill in the form below
-            </StyledText>
+            <StyledHeading>
+                Get In Touch
+            </StyledHeading>
+            <StyledParagraph>
+                I am actively looking for a new opportunity in web development field. If you find me as a good fit
+                for your company's missing position, please contact me via the form below or my email <a href="mailto:hello@thongba.io">hello@thongba.io.</a>
+            </StyledParagraph>
             <Formik 
                 initialValues={{
                     name:'',

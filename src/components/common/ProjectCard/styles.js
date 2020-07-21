@@ -50,6 +50,7 @@ export const StyledCardHeader = styled.div``;
 export const StyledCardBody = styled.div`
     display: flex;
     flex-direction: column;
+    font-family: Montserrat-Regular;
     align-items: start;
     padding: 10px 20px;
     min-height: 250px;

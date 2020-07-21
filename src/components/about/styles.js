@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 import Img from "gatsby-image"
 import { theme, mixins, media, Section } from '@templates';
-const { colors, fonts, fontSizes } = theme;
+const { colors, fontSizes } = theme;
 
 
 export const StyledContainer = styled(Section)`
@@ -12,7 +12,8 @@ export const StyledContainer = styled(Section)`
 `
 
 export const StyledHeading = styled.h1`
-    font-size: ${fontSizes.h3}
+    font-size: ${fontSizes.h3};
+    font-family: Montserrat-Regular;
 `
 
 export const StyledFlexContainer = styled.div`
@@ -24,6 +25,8 @@ export const StyledFlexContainer = styled.div`
 export const StyledContent = styled.div`
   width: 60%;
   max-width: 520px;
+  font-family: Montserrat-Regular;
+  line-height: 1.3;
   ${media.tablet`width: 100%;`};
   a {
     ${mixins.inlineLink};
@@ -43,7 +46,7 @@ export const Skill = styled.li`
     position: relative;
     margin-bottom: 10px;
     padding-left: 20px;
-    font-family: ${fonts.OpenSans};
+    font-family: Montserrat-Regular;
     font-size: ${fontSizes.sm};
     color: ${colors.danteBrown};
     &:before {

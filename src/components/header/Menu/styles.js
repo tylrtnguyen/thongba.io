@@ -29,7 +29,7 @@ export const Sidebar = styled.aside`
     position: relative;
     right: 0;
     margin-left: auto;
-    font-family: 'Open Sans';
+    font-family: Montserrat-Regular;
     box-shadow: -10px 0px 30px -15px ${colors.danteBrown};
     ${media.thone`padding: 25px;`};
     ${media.phablet`width: 75vw;`};

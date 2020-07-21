@@ -20,7 +20,7 @@ export const StyledListItem = styled.li`
     margin: 0 15px;
     position: relative;
     cursor: pointer;
-    font-size: ${fontSizes.md};
+    font-size: ${fontSizes.sm};
     font-weight: 600;
 `
 

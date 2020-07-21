@@ -3,11 +3,23 @@ import { theme, mixins, media, Section } from '@templates';
 const { fontSizes, colors } = theme;
 
 export const StyledContainer = styled(Section)`
-    padding-top: 120px;
+    padding-top: 50px;
     text-align: left;
     max-width: 700px;
+    font-family: Montserrat-Regular;
     ${media.thone`padding: 0`};
 `;
+
+export const StyledHeading = styled.h2`
+    font-family: Montserrat-SemiBold;
+    font-size: ${fontSizes.h3};
+`
+
+export const StyledParagraph = styled.p`
+    font-size: ${fontSizes.md};
+    padding: 15px 0;
+    line-height: 1.4;
+`
 
 export const StyledFormGroup = styled.div`
     margin-bottom: 2rem;

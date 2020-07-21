@@ -6,9 +6,9 @@ import {
     StyledName,
     StyledRole,
     StyledDescription,
-    StyledButtonContainer
+    StyledButtonContainer,
+    StyledButtonLink
 } from './styles'
-import { ButtonLink } from '@components/common';
 
 const Intro = () => {
     // GraphQL Query
@@ -39,13 +39,13 @@ const Intro = () => {
             <StyledRole>{frontmatter.role}</StyledRole>
             <StyledDescription dangerouslySetInnerHTML={{__html: html}} />
             <StyledButtonContainer>
-                <ButtonLink 
+                <StyledButtonLink
                     href="/resume.pdf"
                     target="_blank"
                     rel="nofollow noopener noreferrer">
                     <strong>{frontmatter.buttonResume}</strong>
-                </ButtonLink>
-                <ButtonLink href="/portfolio"><strong>{frontmatter.buttonContact}</strong></ButtonLink>
+                </StyledButtonLink>
+                <StyledButtonLink href="/portfolio"><strong>{frontmatter.buttonContact}</strong></StyledButtonLink>
             </StyledButtonContainer>
         </StyledContainer>
     )

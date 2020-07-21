@@ -26,8 +26,7 @@ export const StyledNav = styled.nav`
     position: relative;
     width: 100%;
     color: ${colors.black};
-    font-weight: 600;
-    font-family: 'Open Sans';
+    font-family: Montserrat-Regular;
     z-index: 12;
 `;
 
