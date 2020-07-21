@@ -1,5 +1,4 @@
 const config = require('./src/config')
-const path = require('path')
 
 module.exports = {
   siteMetadata: {
@@ -21,16 +20,16 @@ module.exports = {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: 'content',
-        path: `${__dirname}/content`
+        path: `${__dirname}/content/`
       }
     },
-    {
-      resolve: `gatsby-source-filesystem`,
-      options: {
-        name: 'posts',
-        path: `${__dirname}/content/posts`
-      }
-    },
+    // {
+    //   resolve: `gatsby-source-filesystem`,
+    //   options: {
+    //     name: 'posts',
+    //     path: `${__dirname}/content/posts`
+    //   }
+    // },
     {
       resolve: `gatsby-source-filesystem`,
       options: {

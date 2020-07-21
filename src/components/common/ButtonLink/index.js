@@ -1,8 +1,9 @@
 import styled from 'styled-components';
 import { theme, media } from '@templates';
+import { Link } from 'gatsby';
 const { colors, fonts, fontSizes } = theme;
 
-const ButtonLink = styled.a`
+const ButtonLink = styled(Link)`
     color: ${colors.danteBrown};
     background-color: transparent;
     border: 1px solid ${colors.danteBrown};

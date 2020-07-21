@@ -43,7 +43,11 @@ const About = ({ paddingTop }) => {
     const { frontmatter, html } = data.about.edges[0].node;
     const { title, skills, avatar } = frontmatter;
     const revealContainer = useRef(null);
-    useEffect(() => sr.reveal(revealContainer.current, srConfig()), [])
+    useEffect(() => {
+      if(typeof window !== 'undefined') {
+        sr.reveal(revealContainer.current, srConfig());
+      }
+    }, [])
 
     return (
         <StyledContainer paddingTop={paddingTop} id="about" ref={revealContainer}>

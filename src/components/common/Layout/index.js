@@ -3,7 +3,6 @@ import styled from 'styled-components';
 import PropTypes from 'prop-types';
 import { GlobalStyle } from '@templates';
 import { NavBar } from '@components/header';
-import Footer from '../../footer/index'
 import SEO from '../SEO';
 
 // Styling
