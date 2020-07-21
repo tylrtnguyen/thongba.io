@@ -3,7 +3,7 @@ import { theme, mixins, media, Section } from '@templates';
 const { fontSizes, colors } = theme;
 
 export const StyledContainer = styled(Section)`
-    padding-top: 50px;
+    padding-top: 70px;
     text-align: left;
     max-width: 700px;
     font-family: Montserrat-Regular;
