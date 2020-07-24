@@ -12,7 +12,7 @@ import {
     IconDefault,
     IconSend,
     IconSuccess
-} from '@icons';
+} from '@assets/icons';
 
 const FormattedIcon = ({name}) => {
     switch (name) {

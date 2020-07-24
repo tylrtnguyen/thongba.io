@@ -4,7 +4,7 @@ import { Formik, Form, FastField, ErrorMessage } from 'formik';
 import * as Yup from 'yup';
 import Recaptcha from 'react-google-recaptcha';
 import { navigate } from 'gatsby';
-import { FormattedIcon } from '@icons';
+import { FormattedIcon } from '@assets/icons';
 import { BigButton } from '@components/common';
 import {
     StyledContainer,

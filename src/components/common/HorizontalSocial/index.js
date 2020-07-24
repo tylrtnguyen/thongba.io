@@ -1,6 +1,6 @@
 import React from "react";
 import { socialMedia } from "@config";
-import { FormattedIcon } from "@icons";
+import { FormattedIcon } from "@assets/icons";
 import {
     StyledSocial,
     StyledIcon

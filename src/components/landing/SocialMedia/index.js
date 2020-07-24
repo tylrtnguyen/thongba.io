@@ -1,7 +1,7 @@
 import React from 'react';
 import { socialMedia } from '@config';
 import { SideBar } from '@components/common';
-import { FormattedIcon } from '@icons';
+import { FormattedIcon } from '@assets/icons';
 import { StyledList, StyledLink } from './styles'
 
 const SocialMedia = () => (

@@ -6,7 +6,7 @@ import {
     StyledBody,
     StyledBackButton
 } from './styles';
-import { FormattedIcon } from '@icons'
+import { FormattedIcon } from '@assets/icons'
 
 const Confirmation = () => (
     <StyledContainer>

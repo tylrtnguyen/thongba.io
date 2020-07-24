@@ -6,7 +6,7 @@ import {
   StyledLogo,
   NavbarToggler
 } from "./styles";
-import LogoLight from "@images/logoLight";
+import LogoLight from "@assets/images/logoLight";
 import { throttle } from "@utils";
 import { navHeight } from "@config";
 import NavLinks from "../NavbarLinks";
