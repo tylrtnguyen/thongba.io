@@ -1,11 +1,16 @@
 <p align="center">
   <a href="https://www.linkedin.com/in/tylrtnguyen/">
-    <img alt="Gatsby" src="./static/logo-light.svg" />
+    <img alt="Gatsby" src="./static/readme-logo.svg" />
   </a>
 </p>
-<p align="center">[![Netlify Status](https://api.netlify.com/api/v1/badges/b290bc63-26d3-461b-904c-dbae24f7af38/deploy-status)](https://app.netlify.com/sites/thongba/deploys)</p>
+
+<p align="center">
+  <a href="https://app.netlify.com/sites/thongba/deploys" target="_blank" />
+  <img src="https://api.netlify.com/api/v1/badges/b290bc63-26d3-461b-904c-dbae24f7af38/deploy-status" alt="deploy status" />
+</p>
+
 <h1 align="center">
-  The second version of my personal website
+  The second version of my personal website built with Gatsby and Styled-components
 </h1>
 
 ## 🚀 Quick start
