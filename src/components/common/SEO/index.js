@@ -139,7 +139,7 @@ const SEO = (props) => {
             <meta property="og:description" content={metaDescription} />
             <meta property="og:image" content={`${siteUrl}${thumbnail}`} />
             <meta property="og:image:width" content="1200" />
-            <meta property="og:image:height" content="666.75" />
+            <meta property="og:image:height" content="610" />
             <meta property="og:image:type" content="image/png" />
             <meta property="og:locale" content={siteLanguage} />
 
