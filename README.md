@@ -9,9 +9,9 @@
   <img src="https://api.netlify.com/api/v1/badges/b290bc63-26d3-461b-904c-dbae24f7af38/deploy-status" alt="deploy status" />
 </p>
 
-<h1 align="center">
+<h3 align="center">
   The second version of my personal website built with Gatsby and Styled-components
-</h1>
+</h3>
 
 ## 🚀 Quick start
 
