@@ -20,6 +20,7 @@
     "gatsby-plugin-google-analytics": "^2.3.1",
     "gatsby-plugin-react-helmet": "^3.3.1",
     "gatsby-plugin-sharp": "^2.6.3",
+    "gatsby-plugin-simple-analytics": "^1.0.3",
     "gatsby-plugin-styled-components": "^3.3.1",
     "gatsby-plugin-web-font-loader": "^1.0.4",
     "gatsby-remark-images": "^3.3.7",
@@ -40,7 +41,6 @@
   },
   "devDependencies": {
     "env-cmd": "^10.1.0",
-    "gatsby-plugin-simple-analytics": "^1.0.3",
     "prettier": "2.0.5"
   },
   "repository": {
