@@ -33,6 +33,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-simple-analytics`,
       options: {
+        domain: 'sa.thongba.io',
         eventsGlobal: 'sa',
         events: true,
         trackPageViews: true
