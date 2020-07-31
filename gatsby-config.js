@@ -31,7 +31,7 @@ module.exports = {
       }
     },
     {
-      resolve: `gatsby-plugin-simple-analytics`,
+      resolve: `simple-analytics-gatsby-plugin`,
       options: {
         domain: 'sa.thongba.io',
         eventsGlobal: 'sa',
