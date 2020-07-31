@@ -38,10 +38,9 @@ module.exports = {
       }
     },
     {
-      resolve: `gatsby-plugin-google-analytics`,
+      resolve: `gatsby-plugin-simple-analytics`,
       options: {
-        trackingId: config.googleAnalyticsID,
-        head: true
+        domain: 'thongba.io'
       }
     },
     {
