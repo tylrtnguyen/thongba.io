@@ -1,5 +1,6 @@
 import React from 'react';
 import { useStaticQuery, graphql } from 'gatsby';
+import { trackCustomeEvent } from 'gatsby-plugin-google-analytics';
 import {
     StyledContainer,
     StyledGreeting,
@@ -11,6 +12,24 @@ import {
 } from './styles'
 
 const Intro = () => {
+
+    const btnResumeTrack = (e) => {
+      e.preventDefault();
+      trackCustomeEvent({
+        category: "View Resume Button",
+        action: "click",
+        label: "Gatsby Google Analytics View Resume Button"
+      })
+    }
+
+    const btnSeeworkTrack = (e) => {
+      e.preventDefault();
+      trackCustomeEvent({
+        category: "See Work Button",
+        action: "click",
+        label: "Gatsby Google Analytics See Work Button"
+      })
+    }
     // GraphQL Query
     const fetchData = useStaticQuery(graphql`
     query {
@@ -22,7 +41,7 @@ const Intro = () => {
                   name
                   role
                   buttonResume
-                  buttonContact
+                  buttonSeeWork
                 }
                 html
               }
@@ -42,10 +61,12 @@ const Intro = () => {
                 <StyledButtonLink
                     href="/resume.pdf"
                     target="_blank"
+                    onClick={e => btnResumeTrack(e)}
                     rel="nofollow noopener noreferrer">
                     <strong>{frontmatter.buttonResume}</strong>
                 </StyledButtonLink>
-                <StyledButtonLink href="/portfolio"><strong>{frontmatter.buttonContact}</strong></StyledButtonLink>
+                <StyledButtonLink href="/portfolio" onClick={e => btnSeeworkTrack(e)}>
+                <strong>{frontmatter.buttonSeeWork}</strong></StyledButtonLink>
             </StyledButtonContainer>
         </StyledContainer>
     )

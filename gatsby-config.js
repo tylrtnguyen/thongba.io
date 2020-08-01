@@ -1,5 +1,6 @@
 const config = require('./src/config')
 
+
 module.exports = {
   siteMetadata: {
     title: config.siteTitle,
@@ -31,11 +32,14 @@ module.exports = {
       }
     },
     {
-      resolve: `gatsby-plugin-simple-analytics`,
+      resolve: `gatsby-plugin-google-analytics`,
       options: {
-        domain: 'sa.thongba.io',
-        events: true,
-        trackPageViews: true
+        trackingId: `${config.googleAnalyticsId}`,
+        defer: false,
+        head: true,
+        anonymize: true,
+        respectDNT: true,
+        pageTransitionDelay: 0,
       }
     },
     {

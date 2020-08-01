@@ -8,6 +8,7 @@ module.exports = {
     location: 'Toronto, ON',
     mainLogo: '/logo-light.svg',
     darkThemeLogo: './logo-dark.svg',
+    googleAnalyticsId: 'UA-157352124-1',
     email: 'hello@thongba.io',
     github: 'https://github.com/tylrtnguyen',
     socialMedia: [

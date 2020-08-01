@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import { OutboundLink } from 'gatsby-plugin-google-analytics';
 
 
 export const StyledList = styled.ul` 
@@ -23,7 +24,7 @@ export const StyledList = styled.ul`
   }
 `;
 
-export const StyledLink = styled.a`
+export const StyledLink = styled(OutboundLink)`
   padding: 12px;
   &:hover,
   &:focus {
