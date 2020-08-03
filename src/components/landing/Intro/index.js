@@ -12,9 +12,7 @@ import {
 } from './styles'
 
 const Intro = () => {
-
     const btnResumeTrack = (e) => {
-      e.preventDefault();
       trackCustomeEvent({
         category: "View Resume Button",
         action: "click",
@@ -23,7 +21,6 @@ const Intro = () => {
     }
 
     const btnSeeworkTrack = (e) => {
-      e.preventDefault();
       trackCustomeEvent({
         category: "See Work Button",
         action: "click",

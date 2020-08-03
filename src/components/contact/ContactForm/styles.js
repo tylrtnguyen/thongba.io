@@ -32,6 +32,8 @@ export const StyledInput = styled.div`
     margin-bottom: 1rem;
     box-sizing: border-box;
     transition: ${theme.transition};
+    font-family: Montserrat-Regular;
+    font-size: ${fontSizes.sm};
     text-align: left;
     border: 1px solid ${colors.black};
     border-radius: ${theme.borderRadius};
