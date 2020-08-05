@@ -17,7 +17,7 @@
 
 1.  **Install Node.js using NVM.**
     ```shell
-    nvm install
+    nvm install node
     ```
 
 2.  **Install the Gatsby CLI**
