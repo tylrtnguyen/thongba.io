@@ -8,7 +8,7 @@ const theme = {
         powderBlue: '#B8DBD9',
         betterBlue: '#629AA9',
         hoverBlue: '#64B5F6',
-        lightGreen: '#B8DBBF',
+        lightGreen: '#17FFD1',
         ghostWhite: '#F4F4F9',
         danteWhite: '#FFFEFE',
         white: '#F7F7F7',

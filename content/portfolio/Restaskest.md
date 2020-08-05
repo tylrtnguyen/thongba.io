@@ -4,6 +4,7 @@ title: 'Restaskest'
 thumbnail: './images/restaskest.png'
 type: 'Web Development'
 github: 'https://github.com/tylrtnguyen/restaskest'
+external: 'https://restaskest.netlify.app/'
 tags:
     - Angular.js
     - TypeScript
