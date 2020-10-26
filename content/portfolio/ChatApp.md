@@ -4,7 +4,7 @@ title: 'DevConnector'
 thumbnail: './images/chat-app.png'
 type: 'Web Development'
 github: 'https://github.com/tylrtnguyen/realtime-chat-app'
-external: 'https://chat-app-frontend.now.sh/'
+external: 'https://devconnect.vercel.app/'
 tags:
     - JavaScript
     - React.js
